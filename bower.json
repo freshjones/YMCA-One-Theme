@@ -1,0 +1,22 @@
+{
+  "name": "sdymca.org",
+  "version": "0.0.1",
+  "authors": [
+    "William Jones <billy@freshjones.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "compass-mixins": "~1.0.2",
+    "singularity": "~1.6.2"
+  }
+}
