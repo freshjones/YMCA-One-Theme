@@ -1,0 +1,46 @@
+@mixin grid($cols: 3, $margin-percent: 5, $line-height: 1, $font-size: $default_font_size) {
+
+	$width: ( (1 / $cols * 100 ) - ( $margin-percent / $cols ) ) / 100;
+	$margin-right: ( (100 - ( ( ( 1 / $cols * 100 ) - ( $margin-percent / $cols ) ) * $cols) ) / ($cols - 1) ) / 100;
+	$margin-bottom: $margin-right;
+
+	.view-content, .grid-rows, .bef-checkboxes
+	{
+		font-size: 0;
+	}
+
+	.views-row, .grid-row, .form-item
+	{
+		@include inline-block(top);
+
+		font-size:     $font-size;
+		line-height:   $line-height;
+		width:         percentage($width);
+
+		margin-top:    0;
+		margin-left:   0;
+		margin-bottom: 0;
+		margin-right:  percentage($margin-right);
+
+		&:nth-child(#{$cols}n + #{$cols})
+		{
+			margin-right: 0;
+		}
+
+		.image
+		{
+			line-height:0;
+		}
+
+	}
+	
+	@include breakpoint($medium, true)
+	{
+		.views-row, .grid-row, .form-item
+		{
+			font-size:     $font-size;
+		}
+		
+	}
+
+}

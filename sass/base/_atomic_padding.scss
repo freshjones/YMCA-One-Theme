@@ -1,0 +1,83 @@
+.p0, .p-0, .p-none { padding: 0; }
+.p5, .p-5, .p-slim { padding: 5px; }
+.p, .p10, .p-10, .p-normal { padding: 10px; }
+.p20, .p-20, .p-gappy { padding: 20px; }
+.p30, .p-30, .p-extra-gappy { padding: 30px; }
+.pt0, .pt-0, .pt-none { padding-top: 0; }
+.pt5, .pt-5, .pt-slim { padding-top: 5px; }
+.pt, .pt10, .pt-10, .pt-normal { padding-top: 10px; }
+.pt20, .pt-20, .pt-gappy { padding-top: 20px; }
+.pt30, .pt-30, .pt-extra-gappy { padding-top: 30px; }
+.pb0, .pb-0, .pb-none { padding-bottom: 0; }
+.pb5, .pb-5, .pb-slim { padding-bottom: 5px; }
+.pb, .pb10, .pb-10, .pb-normal { padding-bottom: 10px; }
+.pb20, .pb-20, .pb-gappy { padding-bottom: 20px; }
+.pb30, .pb-30, .pb-extra-gappy { padding-bottom: 30px; }
+.ptb0, .ptb-0, .ptb-none, .pbt0, .pbt-0, .pbt-none { padding-top: 0; padding-bottom: 0; }
+.ptb5, .ptb-5, .ptb-slim, .pbt5, .pbt-5, .pbt-slim { padding-top: 5px; padding-bottom: 5px; }
+.ptb, .ptb10, .ptb-10, .ptb-normal, .pbt, .pbt10, .pbt-10, .pbt-normal { padding-top: 10px; padding-bottom: 10px; }
+.ptb20, .ptb-20, .ptb-gappy, .pbt20, .pbt-20, .pbt-gappy { padding-top: 20px; padding-bottom: 20px; }
+.ptb30, .ptb-30, .ptb-extra-gappy, .pbt30, .pbt-30, .pbt-extra-gappy { padding-top: 30px; padding-bottom: 30px; }
+
+
+.m0, .m-0, .m-none { margin: 0; }
+.m5, .m-5, .m-slim { margin: 5px; }
+.m, .m10, .m-10, .m-normal { margin: 10px; }
+.m20, .m-20, .m-gappy { margin: 20px; }
+.m30, .m-30, .m-extra-gappy { margin: 30px; }
+.mt0, .mt-0, .mt-none { margin-top: 0; }
+.mt5, .mt-5, .mt-slim { margin-top: 5px; }
+.mt, .mt10, .mt-10, .mt-normal { margin-top: 10px; }
+.mt20, .mt-20, .mt-gappy { margin-top: 20px; }
+.mt30, .mt-30, .mt-extra-gappy { margin-top: 30px; }
+.mb0, .mb-0, .mb-none { margin-bottom: 0; }
+.mb5, .mb-5, .mb-slim { margin-bottom: 5px; }
+.mb, .mb10, .mb-10, .mb-normal { margin-bottom: 10px; }
+.mb20, .mb-20, .mb-gappy { margin-bottom: 20px; }
+.mb30, .mb-30, .mb-extra-gappy { margin-bottom: 30px; }
+.mtb0, .mtb-0, .mtb-none, .mbt0, .mbt-0, .mbt-none { margin-top: 0; margin-bottom: 0; }
+.mtb5, .mtb-5, .mtb-slim, .mbt5, .mbt-5, .mbt-slim { margin-top: 5px; margin-bottom: 5px; }
+.mtb, .mtb10, .mtb-10, .mtb-normal, .mbt, .mbt10, .mbt-10, .mbt-normal { margin-top: 10px; margin-bottom: 10px; }
+.mtb20, .mtb-20, .mtb-gappy, .mbt20, .mbt-20, .mbt-gappy { margin-top: 20px; margin-bottom: 20px; }
+.mtb30, .mtb-30, .mtb-extra-gappy, .mbt30, .mbt-30, .mbt-extra-gappy { margin-top: 30px; margin-bottom: 30px; }
+
+/* left right padding shouldnt come into play until grids */
+@include breakpoint($small, true)
+{
+	
+	.pl0, .pl-0, .pl-none { padding-left: 0; }
+	.pl5, .pl-5, .pl-slim { padding-left: 5px; }
+	.pl, .pl10, .pl-10, .pl-normal { padding-left: 10px; }
+	.pl20, .pl-20, .pl-gappy { padding-left: 20px; }
+	.pl30, .pl-30, .pl-extra-gappy { padding-left: 30px; }
+	.pr0, .pr-0, .pr-none { padding-right: 0; }
+	.pr5, .pr-5, .pr-slim { padding-right: 5px; }
+	.pr, .pr10, .pr-10, .pr-normal { padding-right: 10px; }
+	.pr20, .pr-20, .pr-gappy { padding-right: 20px; }
+	.pr30, .pr-30, .pr-extra-gappy { padding-right: 30px; }
+	
+	.prl0, .prl-0, .prl-none, .plr0, .plr-0, .plr-none { padding-right: 0; padding-left: 0; }
+	.prl5, .prl-5, .prl-slim, .plr5, .plr-5, .plr-slim { padding-right: 5px; padding-left: 5px; }
+	.prl, .prl10, .prl-10, .prl-normal, .plr, .plr10, .plr-10, .plr-normal { padding-right: 10px; padding-left: 10px; }
+	.prl20, .prl-20, .prl-gappy, .plr20, .plr-20, .plr-gappy { padding-right: 20px; padding-left: 20px; }
+	.prl30, .prl-30, .prl-extra-gappy, .plr30, .plr-30, .plr-extra-gappy { padding-right: 30px; padding-left: 30px; }
+	
+	.ml0, .ml-0, .ml-none { margin-left: 0; }
+	.ml5, .ml-5, .ml-slim { margin-left: 5px; }
+	.ml, .ml10, .ml-10, .ml-normal { margin-left: 10px; }
+	.ml20, .ml-20, .ml-gappy { margin-left: 20px; }
+	.ml30, .ml-30, .ml-extra-gappy { margin-left: 30px; }
+	.mr0, .mr-0, .mr-none { margin-right: 0; }
+	.mr5, .mr-5, .mr-slim { margin-right: 5px; }
+	.mr, .mr10, .mr-10, .mr-normal { margin-right: 10px; }
+	.mr20, .mr-20, .mr-gappy { margin-right: 20px; }
+	.mr30, .mr-30, .mr-extra-gappy { margin-right: 30px; }
+	.mrl0, .mrl-0, .mrl-none, .mlr0, .mlr-0, .mlr-none { margin-right: 0; margin-left: 0; }
+	.mrl5, .mrl-5, .mrl-slim, .mlr5, .mlr-5, .mlr-slim { margin-right: 5px; margin-left: 5px; }
+	.mrl, .mrl10, .mrl-10, .mrl-normal, .mlr, .mlr10, .mlr-10, .mlr-normal { margin-right: 10px; margin-left: 10px; }
+	.mrl20, .mrl-20, .mrl-gappy, .mlr20, .mlr-20, .mlr-gappy { margin-right: 20px; margin-left: 20px; }
+	.mrl30, .mrl-30, .mrl-extra-gappy, .mlr30, .mlr-30, .mlr-extra-gappy { margin-right: 30px; margin-left: 30px; }
+		
+}
+
+

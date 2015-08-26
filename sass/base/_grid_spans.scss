@@ -1,0 +1,189 @@
+@include breakpoint($small, true)
+{
+	.gs-12
+	{
+		@include grid-span(12);
+	}
+	
+	.gs-3-0
+	{
+		@include grid-span(3);
+	}
+	
+	.gs-9-4
+	{
+		@include grid-span(9,4);
+	}
+	
+	
+	
+	.gs-4-0
+	{
+		@include grid-span(4);
+	}
+	
+	.gs-8-5
+	{
+		@include grid-span(8,5);
+	}
+	
+	
+	
+	.gs-6-0
+	{
+		@include grid-span(6);
+	}
+	
+	.gs-6-7
+	{
+		@include grid-span(6,7);
+	}
+
+	.gs-9-0
+	{
+		@include grid-span(9);
+	}
+	
+	.gs-3-10
+	{
+		@include grid-span(3,10);
+	}
+	
+	.gs-8-0
+	{
+		@include grid-span(8);
+	}
+	
+	.gs-4-9
+	{
+		@include grid-span(4,9);
+	}
+
+	.gs-7-0
+	{
+		@include grid-span(7);
+	}
+	
+	.gs-5-8
+	{
+		@include grid-span(5,8);
+	}
+	
+	@include breakpoint($medium, true)
+	{
+		.gs-7-0-medium
+		{
+			@include grid-span(7);
+		}
+		
+		.gs-5-8-medium
+		{
+			@include grid-span(5,8);
+		}
+	}
+	
+	@include breakpoint($large, true)
+	{
+		.gs-7-0-large
+		{
+			@include grid-span(7);
+		}
+		
+		.gs-5-8-large
+		{
+			@include grid-span(5,8);
+		}
+	}
+	
+	
+
+	
+	.fs-3, .fs3, .fs-3-first, .fs-3-1
+	{
+		@include float-span(3);
+	}
+
+	.fs-4, .fs4, .fs-4-first, .fs-4-1
+	{
+		@include float-span(4);
+	}
+	
+	.fs-8-last
+	{
+		@include float-span(8, 'last');
+	}
+	
+	.fs-8-first
+	{
+		@include float-span(8);
+	}
+	
+	.fs-4-last
+	{
+		@include float-span(4, 'last');
+	}
+	
+	
+	.fs-5-first
+	{
+		@include float-span(5);
+	}
+	
+	.fs-7-last
+	{
+		@include float-span(7, 'last');
+	}
+	
+	.fs-6-first
+	{
+		@include float-span(6);
+	}
+	
+	.fs-6-last
+	{
+		@include float-span(6, 'last');
+	}
+	
+	.gs-9-4
+	{
+		@include grid-span(9,4);
+	}
+
+	.gs-10-3
+	{
+		@include grid-span(10,3);
+	}
+	
+	
+	.is-9
+	{
+		@include isolation-span(9,1,'both');
+	}
+	
+	.is-4-last
+	{
+		@include isolation-span(4,9,'both');
+	}
+	
+	
+	.grid-no-margins
+	{
+		
+		@include layout($grid:12, $gutter:0)
+		{
+	
+			.gs-6-0
+			{
+				@include grid-span(6);
+			}
+			
+			.gs-6-7
+			{
+				@include grid-span(6,7);
+			}
+			
+		}
+		
+	}
+	
+}

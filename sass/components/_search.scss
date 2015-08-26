@@ -1,0 +1,80 @@
+.nav-search
+{
+
+	.form-item, .form-actions {
+	    margin-bottom: 0;
+	    margin-top: 0;
+	}
+
+	.container-inline div, 
+	.container-inline label
+	{
+		display: inherit;
+	}
+
+	input[type="submit"],
+	input[type="text"]
+	{
+		background-color: transparent;
+		border: medium none;
+		border-radius: 0;
+		box-shadow: none;		
+		margin: 0;
+		height:35px;
+	}
+
+	input[type="submit"]
+	{
+		text-indent: -1000px;
+		padding: 0;
+	}
+
+	
+
+	input
+	{
+		border-radius: 0;
+	}
+
+	/* THE BUTTON */
+	.search-right
+	{
+	
+		background-image: url("../images/sprite.png");
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		
+		@include inline-block;
+
+		width:auto;
+		white-space: nowrap;
+
+		@include border-right-radius(5px);
+		background-color: #FFF;
+		border:solid 1px #fff;
+		float:right;
+
+		.form-submit
+		{
+			width: 45px;
+		}
+
+	}
+	
+	
+	/* THE FIELD */
+	.search-fill
+	{
+		overflow: hidden;
+		@include border-left-radius(5px);
+	}
+
+}
+
+
+@include breakpoint($medium, true)
+{
+	
+	
+	
+}

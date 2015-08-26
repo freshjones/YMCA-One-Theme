@@ -1,0 +1,27 @@
+.counter
+{
+	@extend .dib;
+	@extend .ymca-text;
+	@extend .list-no-style;
+	
+	li
+	{
+		text-align:center;
+		margin-right: 10px;
+	}
+	
+	div
+	{
+		@extend .well;
+		@extend .well-info;
+		font-size:200%;
+	}
+	
+	.prefix
+	{
+		max-width:75px;
+		text-align:left;
+		@extend .smaller;
+		line-height:1;
+	}
+}

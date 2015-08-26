@@ -1,0 +1,34 @@
+.container, .pane-container > .pane-content
+{
+	@include layout($grid: 1, $gutter: $vert-spacing-unit*2, $gutter-style : 'split')
+	{
+		@include grid-span(1);
+	}
+}
+
+.gmap-map
+{
+	width:100% !important;
+}
+
+@include breakpoint($medium, true)
+{
+	.container, .pane-container > .pane-content
+	{
+		@include grid-span(10,2);
+		
+	}
+}
+
+@include breakpoint($xlarge, true)
+{
+	.container, .pane-container > .pane-content
+	{
+		margin:0 auto;
+		max-width:$large;
+		float:none;
+	}
+	
+}
+
+

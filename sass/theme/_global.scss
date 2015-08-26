@@ -1,0 +1,19 @@
+.ymca-color-scheme-blue
+{
+	@include setColorScheme;
+}
+
+.ymca-color-scheme-orange
+{
+	@include setColorScheme($scheme:orange);
+}
+
+.ymca-color-scheme-purple
+{
+	@include setColorScheme($scheme:purple);
+}
+
+.ymca-color-scheme-teal
+{
+	@include setColorScheme($scheme:teal);
+}

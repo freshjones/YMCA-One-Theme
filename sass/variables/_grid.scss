@@ -1,0 +1,17 @@
+// Set consistent vertical and horizontal spacing units.
+$set-box-sizing: false;
+
+$vert-spacing-unit: 12px;
+$horz-spacing-unit: 1em;
+
+$xsmall: 480px;
+$small: 768px;
+$medium: 960px;
+$large: 1200px;
+$xlarge: 1400px;
+
+$grid: 12;
+$gutters: 1/4;
+
+@include add-grid($grid);
+@include add-gutter($gutters);

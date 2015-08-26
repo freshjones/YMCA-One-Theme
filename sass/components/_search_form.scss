@@ -1,0 +1,92 @@
+.search-form 
+{
+	@extend .well;
+	@extend .well-info;
+	@extend .smaller;
+	
+	.views-exposed-widgets > div + div
+	{
+		margin-top:15px;
+	}
+	
+	.views-exposed-widgets > div > label
+	{
+		@extend .strong;		
+	}
+	
+	.views-submit-button, .views-reset-button
+	{
+		@extend .dibself;
+		@extend .fr;
+		@extend .ml10;
+	}
+	
+	.views-reset-button input
+	{
+		@extend .btn.white;
+	}
+	
+}
+
+.search-form-left, .search-form-right
+{
+	
+	input[type="text"], 
+	input[type="password"], 
+	input[type="email"], 
+	select, 
+	textarea
+	{
+		width:100%;
+	}
+	
+	.views-widget div
+	{
+		width:100%;
+	}
+	
+	label
+	{
+		padding-left:1px;
+		padding-bottom:2px;
+		display: block;
+	}
+	
+	.description
+	{
+		@extend .mt5;
+		font-style:italic;
+		color:#999;
+	}
+	
+	.bef-select-as-checkboxes
+	{
+		@include grid($cols: 2, $line-height: 1.5, $font-size: 13px );
+	}
+	
+	.bef-checkboxes > div
+	{
+		margin-bottom:5px;
+		
+		label
+		{
+			display: inline;
+		}
+		
+	}
+
+	.views-widget-filter-field_days_offered_value .bef-checkboxes > div
+	{
+		@extend .dibself;
+		width:auto;
+		text-align:center;
+		margin-right:5px !important;
+		
+		label
+		{
+			margin-top:5px;
+			display: block;
+		}
+	}
+	
+}

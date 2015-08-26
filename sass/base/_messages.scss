@@ -1,0 +1,126 @@
+.messages
+{
+	@include message-style();
+}
+
+.alert, .well
+{
+	@extend .messages;
+	padding-top:13px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	border: 1px solid rgba(0, 0, 0, 0);
+	line-height:1;
+}
+
+
+.alert-slim, .well-slim
+{
+	padding-top:9px;
+	padding-bottom:5px;
+}
+
+.alert-gappy, .well-gappy
+{
+	padding:20px;
+}
+
+.alert-success, .well-success
+{
+	background-color: #dff0d8;
+    border-color: darken(#d6e9c6,2%);
+    color: #3c763d;
+}
+
+.alert-info, .well-info
+{
+	background-color: #d9edf7;
+    border-color: darken(#bce8f1,2%);
+    color: #31708f;
+}
+
+.alert-warning, .well-warning
+{
+	background-color: #fcf8e3;
+    border-color: darken(#faebcc,2%);
+    color: #8a6d3b;
+}
+
+.alert-danger, .well-danger
+{
+	background-color: #f2dede;
+    border-color: darken(#ebccd1,2%);
+    color: #a94442;
+}
+
+.well-empty
+{
+	background-color: #f2f2f2;
+    border-color: #dddddd;
+    color: #bbbbbb;
+}
+
+.well-full, .well-closed, .well-cancelled
+{
+	@extend .well-danger;
+}
+
+.well-cancelled
+{
+	text-decoration: line-through;
+}
+
+.well-almost
+{
+	@extend .well-warning;
+}
+
+.well-open
+{
+	@extend .well-success;
+}
+
+
+.pill
+{
+	@include border-radius(5px);
+	text-align:center !important;
+	padding:4px 10px;
+}
+
+
+.pill-info
+{
+	background-color: $badge-primary;
+	color: #ffffff;
+}
+
+.pill-full, .pill-closed, .pill-cancelled
+{
+	background-color: $badge-danger;
+	color: #ffffff;
+}
+
+.pill-cancelled
+{
+	text-decoration: line-through;
+}
+
+.pill-almost
+{
+	background-color: $badge-warning;
+	color: #ffffff;
+}
+
+.pill-open
+{
+	background-color: $badge-success;
+	color: #ffffff;
+}
+
+.pill-knockout
+{
+	background-color: #fff;
+}
+

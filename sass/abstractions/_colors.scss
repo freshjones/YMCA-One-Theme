@@ -1,0 +1,448 @@
+@function tint($color, $percentage) {
+    @return mix(#ffffff, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+    @return mix(#000000, $color, $percentage);
+}
+
+@mixin setColor($color:#000, $link:$btn-blue, $hover:$btn-blue)
+{
+	color:$color;
+	a{
+		color:$link;
+	}
+	a:hover{
+		color:$hover;
+	}
+
+}
+
+@mixin setGradientBackground($background:blue, $color:#fff, $ltr:false, $type:primary)
+{
+	$top:$blue-top;
+	$bottom: $blue-bottom;
+	
+	@if $background == orange {
+
+		@if $type == secondary 
+		{
+			$top:$orange-top;
+			$bottom: $orange-bottom;
+	
+		} else {
+			
+			$top:$orange-top;
+			$bottom: $orange-bottom;
+		}
+		
+	
+	} 
+	
+	@if $background == purple {
+
+		@if $type == secondary 
+		{
+			$top:$purple-top;
+			$bottom: $purple-bottom;
+	
+		} else {
+			
+			$top:$purple-top;
+			$bottom: $purple-bottom;
+		}
+		
+	
+	} 
+	
+	@if $background == teal {
+
+		@if $type == secondary 
+		{
+			$top:$teal-top;
+			$bottom: $teal-bottom;
+	
+		} else {
+			
+			$top:$teal-top;
+			$bottom: $teal-bottom;
+		}
+	
+	}
+	
+	background:$top;
+
+	@if $ltr == true {
+		background: -webkit-linear-gradient(left, $bottom , $top); 
+		background: -o-linear-gradient(right, $bottom, $top); 
+		background: -moz-linear-gradient(right, $bottom, $top);
+		background: linear-gradient(to right, $bottom , $top); 
+	} 
+	
+	@if $ltr != true {
+		background: -webkit-linear-gradient($top, $bottom);
+		background: -o-linear-gradient($top, $bottom);
+		background: -moz-linear-gradient($top, $bottom);
+		background: linear-gradient($top, $bottom);
+	}
+	
+	color:$color;
+
+	a, h2,h3,h4,h5
+	{
+		color:$color;
+	}
+
+}
+
+
+@mixin setSlideBackground($top, $bottom)
+{
+	
+	background: -webkit-linear-gradient(left, $bottom , $top); 
+	background: -o-linear-gradient(right, $bottom, $top); 
+	background: -moz-linear-gradient(right, $bottom, $top);
+	background: linear-gradient(to right, $bottom , $top); 
+	
+	color:#fff;
+	a, h2,h3,h4,h5
+	{
+		color:#fff;
+	}
+}
+
+
+@mixin setColorScheme($scheme:blue, $color:#fff)
+{
+	
+	$primary-top:		$blue-top;
+	$primary-bottom: 	$blue-bottom;
+	$secondary-top:		$blue-secondary-top;
+	$secondary-bottom: 	$blue-secondary-bottom;
+	
+	@if $scheme == orange {
+
+		$primary-top:		$orange-top;
+		$primary-bottom: 	$orange-bottom;
+		$secondary-top:		$orange-secondary-top;
+		$secondary-bottom: 	$orange-secondary-bottom;
+	
+	} 
+	
+	@if $scheme == purple {
+
+		$primary-top:		$purple-top;
+		$primary-bottom: 	$purple-bottom;
+		$secondary-top:		$purple-secondary-top;
+		$secondary-bottom: 	$purple-secondary-bottom;
+	
+	} 
+	
+	@if $scheme == teal {
+
+		$primary-top:		$teal-top;
+		$primary-bottom: 	$teal-bottom;
+		$secondary-top:		$teal-secondary-top;
+		$secondary-bottom: 	$teal-secondary-bottom;
+	
+	}
+	
+	a,h1
+	{
+		color:$primary-top;
+	}
+	
+	a:hover
+	{
+		color:$secondary-top;
+	}
+
+	
+	h2,h3
+	{
+		color:$secondary-top;
+	}
+	
+	
+	.primary-color
+	{
+		color:$primary-top;
+	}
+	
+	.secondary-color
+	{
+		color:$secondary-top;
+	}
+	
+	.slide-scroll .row-center
+	{
+		background-color:darken($secondary-top, 2%);
+		@include setSlideBackground( darken($secondary-top, 2%), darken($secondary-bottom, 2%) );
+	}
+	
+	.slide-scroll .row-center:after
+	{
+		border-left-color: darken($secondary-top, 2%);	
+	}
+	
+	.slide-scroll .slide-hover
+	{
+		@include setSlideBackground( lighten($primary-top, 2%), lighten($primary-bottom, 2%) );
+	}
+
+	.slide-scroll .slide-hover:after
+	{
+		border-left-color: lighten($primary-top, 2%);
+	}
+	
+	.region-header, .bg-primary-gradient
+	{
+		@include setGradientBackground($scheme);
+	}
+	
+	.primary-bg-color
+	{ 
+		background-color: $primary-top;
+		color:$color;
+	}
+	
+	.well-knockout-info 
+	{
+    	background-color: $primary-top;
+		color:$color;
+		
+		h1,h2,h3,a
+		{
+			color:$color;
+		}
+		
+	}
+
+	.primary-bg-color-top 
+	{ 
+		background-color: $primary-top;
+		color:$color;
+		
+		h1,h2,h3,a
+		{
+			color:$color;
+		}
+	}
+	
+	.primary-bg-color-bottom
+	{ 
+		background-color: $primary-bottom;
+		color:$color;
+		
+		h1,h2,h3,a
+		{
+			color:$color;
+		}
+		
+	}
+	
+	.secondary-bg-color
+	{ 
+		background-color: $secondary-top;
+		color:$color;
+		
+		h1,h2,h3,a
+		{
+			color:$color;
+		}
+	}
+
+	.secondary-bg-color-top 
+	{ 
+		background-color: $secondary-top;
+		color:$color;
+	}
+	
+	.secondary-bg-color-bottom
+	{ 
+		background-color: $secondary-bottom;
+		color:$color;
+	}
+	
+	.btn-primary
+	{
+		@include button-color( tint($primary-top, 3%), #fff);
+	}
+	
+	.btn-secondary
+	{
+		@include button-color( tint($secondary-top, 3%), #fff);
+	}
+	
+	.billboard-empty
+	{
+		background-color: $ltgrey;	
+	}
+	
+	.menu-ymca
+	{
+	
+		a 
+		{
+			color:$primary-top;
+		}
+
+		
+		li li a, li.sf-expanded a
+		{
+			color:#fff;
+		}
+		
+		li ul, li.sf-expanded
+		{
+			background:$primary-top;
+		}
+		
+		li li
+		{
+			border-top:1px solid shade($primary-top, 30%);	
+		}
+
+		li li
+		{
+			border-top:1px solid shade($primary-top, 30%);	
+		}
+		
+		li li.sfHover, li li:hover
+		{
+			background: shade($primary-top, 5%);
+		}
+			
+		.sf-sub-indicator
+		{
+			color: $primary-top;
+		}
+		
+		li.sfHover, li:hover 
+		{
+			background:$primary-top;
+			
+			a, .sf-sub-indicator
+			{
+				color:#fff;
+			}
+			
+		}
+		
+		
+		li.active-trail, li.active, li li.active-trail, li li.active
+		{
+			background: tint($primary-top, 80%);
+			color:$primary-top;
+			
+			& > a, .sf-sub-indicator
+			{
+				color:$primary-top;
+			}
+		}
+		
+		@include breakpoint($small, true) 
+		{
+	
+			.sf-menu > li.first, .sf-menu > li.firstandlast
+			{
+				background-color: $primary-top;
+				
+				& > a
+				{
+					color:#fff;
+				}
+			}
+		
+		}
+		
+		
+	}
+	
+	.ymca-secondary-menu .pane-content
+	{
+	
+		.menu
+		{
+			background:$primary-top;
+		}
+		
+		li
+		{
+			border-top:1px solid tint($primary-top, 30%);	
+		}
+		
+		li.first
+		{
+			border-top:none;	
+		}
+	
+		li.active-trail, li.active-trail ul, li.active
+		{
+			background: tint($primary-top, 90%);
+			
+			li
+			{
+				border:none;
+			}
+			
+		}
+		
+		.active-trail a, li.active a
+		{
+			color:$primary-top;
+		}
+	
+	}
+		
+	.site-selector-homepage .group-active
+	{
+		border-top:2px solid  tint($primary-top, 40%)
+	}
+
+	.nav-search 
+	{
+		input[type="text"] { color: tint($primary-top, 80%); }
+		
+		.search-fill
+		{
+			background-color: tint($primary-top, 20%);
+			border:solid 1px tint($primary-top, 40%);
+		}
+
+	}
+	
+	.breadcrumbs
+	{
+		background-color: $secondary-bottom;
+	}
+	
+	@include breakpoint($small, true)
+	{
+		
+		th
+		{
+			background-color: tint($blue-top,85%);
+		}
+	
+		tr.even,tr.odd 
+		{
+		  border-bottom: 1px solid tint($blue-top, 75%);
+		}
+		
+		tr.even 
+		{
+		  background-color: tint($blue-top,95%);
+		}
+		
+		td.active {
+		  background-color: tint($blue-top, 95%);
+		}
+	
+		tr.even td.active {
+		  background-color: tint($blue-top, 90%);
+		}
+	
+	}
+
+}

@@ -1,0 +1,43 @@
+.billboard-empty
+{
+	height:85px;
+}
+
+.billboard-one
+{
+	background-color:$ultralightgrey;
+	border-bottom:1px solid $ltgrey;
+	background-position: center center;
+    background-size: cover;
+}
+
+.billboard-one, .billboard-one > div
+{
+	height:250px;
+	overflow:hidden;
+}
+
+.billboard-one > div
+{
+	position:relative;
+}
+
+.billboard-one img
+{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:auto;
+}
+
+.billboard-text
+{
+	position:relative;
+	z-index:2;
+	color:#fff;
+	top:35%;
+}
+
+
+

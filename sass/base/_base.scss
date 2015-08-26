@@ -1,0 +1,48 @@
+* { 
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body, p { 
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	height: 					100%;
+	background-color: 			$background-color;
+	-webkit-text-size-adjust: 	100%;
+	font-family:      			$default_font_family;
+	font-size:     				$default_font_size;
+	line-height:      			$default_line_height;
+	color:						$text-color;
+}
+
+body > .page
+{
+	margin:0 auto;
+}
+
+a
+{
+	color: $link-color;
+}
+
+/*
+a:hover
+{
+	text-decoration: underline;
+}
+*/
+
+img {
+	border: none;
+}

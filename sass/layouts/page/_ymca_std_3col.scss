@@ -1,0 +1,60 @@
+@include breakpoint($small, true)
+{
+	
+	.layout-3col-has-both > .layout-region
+	{
+
+		> .left
+		{
+			@include grid-span(3);
+		}
+	
+		> .middle, > .main
+		{
+			@include grid-span(6,4);
+		}
+		
+		> .right
+		{
+			@include grid-span(3,10);
+		}
+		
+	}
+	
+	.layout-3col-has-left > .layout-region
+	{
+
+		@include layout($grid: 3 9, $gutter: 0)
+		{
+			> .middle, > .main
+			{
+				@include grid-span(1,2);
+			}
+			
+			> .left
+			{
+				@include grid-span(1);
+			}
+		}
+		
+	}
+	
+	.layout-3col-has-right > .layout-region
+	{
+
+		@include layout($grid: 8 4, $gutter: 0)
+		{
+			> .middle
+			{
+				@include grid-span(1);
+			}
+			
+			> .right
+			{
+				@include grid-span(1,2);
+			}
+		}
+		
+	}
+	
+}

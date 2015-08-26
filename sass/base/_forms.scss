@@ -1,0 +1,44 @@
+input, textarea, keygen, select, button 
+{
+	font-size: $default_font_size;
+	font-family: $default_font_family;		
+}
+
+textarea
+{
+	width:100%;
+}
+
+input[type="text"], input[type="password"], input[type="email"], select, textarea
+{
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:10px;
+}
+
+
+input[type="submit"]
+{
+	@extend .btn;
+}
+
+.select-or-other .form-type-select
+{
+  	margin-top:0;
+	margin-bottom:0;
+}
+
+button::-moz-focus-inner, 
+input[type="button"]::-moz-focus-inner, 
+input[type="submit"]::-moz-focus-inner, 
+input[type="reset"]::-moz-focus-inner 
+{
+	padding: 0 !important;
+	border: 0 none !important;
+}
+
+input::-moz-focus-inner 
+{ 
+	margin-bottom: -2px; 
+}
+

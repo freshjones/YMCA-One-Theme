@@ -1,0 +1,14 @@
+.sidebar-gallery li + li
+{
+	margin-left:5px;
+}
+
+.sidebar-gallery li.first
+{
+	width:100%;
+	
+	img
+	{
+		width:100%;
+	}
+}

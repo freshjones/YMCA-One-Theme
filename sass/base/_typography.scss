@@ -1,0 +1,256 @@
+.ytype
+{
+	text-transform:uppercase;
+	font-family:"YMCA-Medium", $default_font_family;
+}
+
+h1, h2, h3, h4, h5, h6 
+{ 
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3,
+.like-h1,
+.like-h2,
+.like-h3
+{
+	@extend .ymca-text;
+}
+
+h1, .like-h1 { 
+	font-size:300%;
+	line-height: 1.2;
+}
+
+
+h2, .like-h2 { 
+	font-size: 175%;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+h3, .like-h3 { 
+	font-size:   135%;
+	line-height: 1.2;
+}
+
+h1.bigger, .like-h1.bigger { font-size: 300% * 1.2; }
+h1.super, .like-h1.super { font-size: 300% * 1.3; }
+h1.mega, .like-h1.mega { font-size: 300% * 1.4; }
+h1.ultra, .like-h1.ultra { font-size: 300% * 1.5; }
+
+h2.bigger, .like-h2.bigger { font-size: 175% * 1.2; }
+h2.super, .like-h2.super { font-size: 175% * 1.3; }
+h2.mega, .like-h2.mega { font-size: 175% * 1.4; }
+h2.ultra, .like-h2.ultra { font-size: 175% * 1.5; }
+
+h3.bigger, .like-h3.bigger { font-size: 135% * 1.2; }
+h3.super, .like-h3.super { font-size: 135% * 1.3; }
+h3.mega, .like-h3.mega { font-size: 135% * 1.4; }
+h3.ultra, .like-h3.ultra { font-size: 135% * 1.5; }
+
+h4.bigger, .like-h4.bigger { font-size: 125%; }
+h4.super, .like-h4.super { font-size: 135%; }
+h4.mega, .like-h4.mega { font-size: 145%; }
+h4.ultra, .like-h4.ultra { font-size: 165%; }
+
+h5.bigger, .like-h5.bigger { font-size: 110%; }
+h5.super, .like-h5.super { font-size: 120%; }
+h5.mega, .like-h5.mega { font-size: 130%; }
+h5.ultra, .like-h5.ultra { font-size: 150%; }
+
+.content, .bottom
+{
+	
+	h1 + h2,
+	h1 + h3,
+	h1 + h4,
+	
+	h2 + h3,
+	h2 + p,
+	h2 + ul,
+	h2 + h5,
+	h3 + ul,
+	h3 + h5,
+	h3 + p,
+	
+	
+	p + ul,
+	h2 + div,
+	h3 + div,
+	p + p,
+	
+	.entity-content-elements + .entity-content-elements
+	{
+		margin-top:10px;
+	}
+
+	h1 + div,
+	h1 + p,
+	
+	p + h2,
+	p + h3,
+	p + div,
+	p + table,
+	
+	ul + p,
+	ul + h2,
+	ul + h3,
+	ul + div,
+	
+	h5 + h2,
+	h5 + div,
+	
+	fieldset + fieldset
+	{
+		margin-top:20px;
+	}
+	
+	
+}
+
+.pane-title + .pane-content
+{
+	margin-top:15px;
+}
+
+.no-top-margin
+{
+	margin-top:0 !important;
+}
+
+a
+{
+	text-decoration:none;	
+}
+
+.bigger, .lead
+{
+	font-size:110%;
+}
+
+@breakpoint($large, true)
+{
+	.bigger-large, .lead-large
+	{
+		font-size:110%;
+	}
+}
+
+
+
+.super, .lead-super
+{
+	font-size:120%;
+}
+
+.mega, .lead-mega
+{
+	font-size:130%;
+}
+
+.ultra, .lead-ultra
+{
+	font-size:150%;
+}
+
+.tiny
+{
+	font-size:80%;
+}
+
+.smaller
+{
+	font-size:90%;
+}
+
+.strong, .bold
+{
+	font-weight:bold;
+}
+
+.italic, em
+{
+	font-style: italic;
+}
+
+.black
+{
+	color:#000 !important;
+}
+
+.white
+{
+	color:#ffffff !important;
+}
+
+.light-grey, .disabled
+{
+	color:#cccccc !important;
+}
+
+.grey
+{
+	color:#666666 !important;
+}
+
+.blue
+{
+	color:$blue-top !important;
+}
+
+.green
+{
+	color:$green-top !important;
+}
+
+.text-info
+{
+	color: lighten(#31708f, 15%);
+}
+
+.text-success
+{
+	color:lighten(#3c763d, 15%);
+}
+
+.text-danger
+{
+	color:lighten(#a94442, 15%);
+}
+
+.text-warning
+{
+	color:lighten(#8a6d3b, 15%);
+}
+
+
+.shadowtext
+{
+	@include single-text-shadow(1px, 1px, 3px, 3px, rgba(0,0,0,0.6));
+}
+
+.ymca-text
+{
+	font-family: "YMCA-Medium", $default_font_family;
+	font-weight:normal;
+	@extend .uppercase;
+}
+
+.nowrap
+{
+	white-space:nowrap;
+}
+
+.regular-text
+{
+	font-family: $default_font_family;
+	font-weight:normal;
+	text-transform:none;
+}
+
+.label-above
+{
+	@extend .strong;
+}

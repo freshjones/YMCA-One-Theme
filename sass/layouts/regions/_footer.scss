@@ -1,0 +1,46 @@
+.footer
+{
+	
+	text-align:center;
+	
+	p
+	{
+		padding:0 20px;
+	}
+	
+	span
+	{
+		display:block;
+	}
+	
+	br
+	{
+		margin-bottom: 10px;
+	}
+
+}
+
+@include breakpoint($small, true)
+{
+	
+	.footer
+	{
+		text-align:left;
+		p
+		{
+			padding:0;
+		}
+		
+		span
+		{
+			display:initial;
+		}
+		
+		br
+		{
+			margin-bottom: 0;
+		}
+	
+	}
+
+}

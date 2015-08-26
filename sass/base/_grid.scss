@@ -1,0 +1,38 @@
+.grid-2col
+{
+	@include grid($cols: 2, $line-height: 1.5);
+}
+
+.grid-3col
+{
+	@include grid($cols: 3, $line-height: 1.5);
+}
+
+.grid-4col
+{
+	@include grid($cols: 4);
+}
+
+.grid-mt20 .grid-row
+{
+	margin-top:20px;
+}
+
+
+.grid-lh-slim .grid-row,
+.grid-lh125 .grid-row
+{
+	line-height:1.25;
+}
+
+.grid-lh .grid-row,
+.grid-lh15 .grid-row
+{
+	line-height:1.5;
+}
+
+.grid-lh-gappy .grid-row,
+.grid-lh20 .grid-row
+{
+	line-height:2;
+}

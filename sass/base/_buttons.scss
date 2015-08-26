@@ -1,0 +1,78 @@
+.btn
+{
+	@include button;
+}
+
+.btn a
+{
+	display:block;
+}
+
+.btn a, a.btn
+{
+	color:#fff !important;
+}
+
+.btn-green
+{
+	@extend .btn.green;
+}
+
+.btn-grey
+{
+	@extend .btn.grey;
+}
+
+.btn-white
+{
+	@extend .btn.white;
+}
+
+.btn-knockout, .btn-knockout:hover
+{
+	background-color:#ffffff;
+	box-shadow:none;
+	border:none;
+}
+	
+.btn-knockout a, a.btn-knockout,
+.btn-knockout a:hover, a.btn-knockout:hover
+{
+	color:$link-color !important;
+}
+
+.btn-simple, .btn-simple:hover
+{
+	box-shadow:none;
+	border:none;
+}
+
+.btn-bigger
+{
+	padding:10px;
+}
+
+.btn-super
+{
+	padding:20px;
+}
+
+.btn-mega
+{
+	padding:30px;
+}
+
+.btn-ultra
+{
+	padding:40px;
+}
+
+.btn-arrow-right a:after,
+a.btn-arrow-right:after
+{
+	content:"\25B6";
+	float: right;
+}
+
+
+

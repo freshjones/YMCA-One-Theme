@@ -1,0 +1,15 @@
+.layout-region + .layout-region,
+.layout-region > .middle > div + div
+{
+	margin-top:$vert-spacing-unit + ($vert-spacing-unit*.5);
+}
+
+.layout-region > .middle > div.pane-page-tabs + div
+{
+	margin-top:0;
+}
+
+.middle, .main
+{
+	position:relative;
+}

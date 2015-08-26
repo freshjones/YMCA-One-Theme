@@ -1,0 +1,36 @@
+.grid-3col > div + div
+{
+	margin-top:40px;
+}
+
+@include breakpoint($small,true)
+{
+	
+	.grid-3col > div + div
+	{
+		margin-top:initial;
+	}
+
+	.grid-3col
+	{
+		
+		.left
+		{
+			@include grid-span(4);
+		}
+		
+		.middle
+		{
+			@include grid-span(4,5);
+		}
+		
+		.right
+		{
+			@include grid-span(4,9);
+		}
+		
+	}
+	
+	
+}
+

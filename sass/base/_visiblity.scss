@@ -1,0 +1,61 @@
+// Classes
+.show {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+
+.visible-xsmall
+{
+	
+}
+
+.visible-small
+{
+	
+}
+
+.visible-medium
+{
+	
+}
+
+.visible-large
+{
+	
+}
+
+.hidden-xsmall
+{
+	display: none !important;
+}
+
+
+@include breakpoint($small,true)
+{
+	
+	.hidden-xsmall
+	{
+		display: inline-block !important;;
+	}
+
+}
+
+
+.hidden-medium
+{
+	
+}
+
+.hidden-large
+{
+	
+}

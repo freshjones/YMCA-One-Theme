@@ -1,0 +1,144 @@
+.header
+{
+	padding-bottom: 20px;	
+}
+
+.site-name
+{
+	@extend h2;
+}
+
+.metanav, .sitename
+{
+	text-align:center;
+}
+
+.metanav
+{
+	margin-bottom:20px;	
+}
+
+.metanav ul
+{
+	margin:0;
+}
+
+.sitename
+{
+	padding-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:175%;
+	line-height:1;
+}
+
+.sitename-minor
+{
+	padding-top:5px;
+	font-size:100%;
+}
+
+#logo
+{
+	height:125px;
+	width:160px;
+	overflow:hidden;
+	display:block;
+}
+
+@include breakpoint($small, true)
+{
+	.header
+	{
+		padding-bottom: 0;	
+	}
+	
+	.sitename
+	{
+		padding-top:15px;
+		padding-left:0;
+		padding-right:0;
+		text-align:right;
+	}
+
+	.sitename-major
+	{
+		padding-top:10px;
+	}
+
+	.group-119 .sitename-no-minor
+	{
+		padding-top:20px;
+	}
+	
+	.sitename-minor
+	{
+		padding-top:5px;
+	}
+
+	.sitename-major-no-minor
+	{
+		padding-top:5px;
+	}
+
+	.metanav-group
+	{
+		padding-top:10px;
+	}
+	
+	.ymca-main .metanav-group
+	{
+		padding-top:15px;
+	}
+	
+	.metanav
+	{
+		text-align:right;
+		margin-bottom:5px;
+	}
+
+}
+
+@include breakpoint($large, true)
+{
+	
+	.metanav-group
+	{
+		padding-top:20px;
+	}
+	
+	.group-119 .metanav-group
+	{
+		padding-top:30px;
+	}
+	
+	.metanav
+	{
+		@include grid-span(7);
+	}
+	
+	.nav-search
+	{
+		@include grid-span(5,8);
+	}
+	
+	.metanav li
+	{
+		margin-top: 7px;
+	}
+	
+	.sitename-major
+	{
+		padding-top:10px;
+	}
+
+	.sitename-major
+	{
+		font-size:225%;
+	}
+
+	
+}
+
+
+	

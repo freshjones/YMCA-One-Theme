@@ -1,0 +1,30 @@
+ul li.leaf
+{
+	list-style-image: none;
+    list-style-type: inherit;
+}
+
+ul.menu,
+ul.menu li {
+    margin: 0;
+    padding:0;
+}
+
+.contextual-links
+{
+	font-family: $default_font_family !important;
+	text-transofmr:none !important;
+
+	li
+	{
+		display:block !important;
+	}
+}
+
+.ymca-theme-one
+{
+	ul li.collapsed,ul li.expanded
+	{
+		list-style:none;
+	}
+}

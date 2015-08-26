@@ -1,0 +1,105 @@
+@mixin button()
+{
+	padding: 7px 10px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 8px;
+	color: white;
+	text-align: center;
+	background-color: $default;
+	box-shadow: lighten( $default, 20% ) 0 1px 0 inset;
+	border: 1px solid darken( $default, 10% );
+
+	-webkit-appearance: none;	
+	
+	&:hover
+	{
+		text-decoration: none;
+		background-color: darken( $default, 10% );
+		color:#fff;
+	}
+
+	&.disabled, &[disabled]
+	{
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+		opacity: 0.6;
+		background: lighten( $default, 10% );
+		cursor: default;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+	&.empty
+	{
+		background: none;
+		border: 1px solid darken( $default, 10% );
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		color:$default;
+		&:hover
+		{
+			background: $default;
+			color: darken($default, 30% );;
+		}
+	}
+
+	&.slim, &.btn-slim
+	{
+		padding: 0.35em 0.75em 0.1em;
+	}
+	
+	&.btn-full
+	{
+		width:100%;
+		text-align:left;
+		position:relative;
+	}
+
+	&.btn-full:after
+	{
+		position: absolute;
+    	right: 10px;
+	}
+	
+	&.black {
+		@include button-color(#000);
+	}
+
+	&.white, &.clear {
+		@include button-color(#e1e1e1, #999);
+		&:hover
+		{
+			color:#999;
+		}
+	}
+
+	&.grey {
+		@include button-color(#666);
+	}
+
+	&.green {
+		@include button-color($green-top, #fff);
+	}
+	
+}
+
+@mixin button-color($base-color: $default, $text-color: #333)
+{
+	color: $text-color;
+	background-color: $base-color;
+	box-shadow: lighten( $base-color, 20% ) 0 1px 0 inset;
+	border: 1px solid darken( $base-color, 10% );
+
+	&:hover
+	{
+		background-color: darken( $base-color, 10% );
+	}
+
+	&.disabled, &[disabled]
+	{
+		background: lighten( $base-color, 10% );
+	}
+
+}

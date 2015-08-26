@@ -1,0 +1,66 @@
+.ymca-theme-one
+{
+	
+	.region.hero
+	{
+		margin-top:0;
+	}
+	
+	.carousel-one,
+	.billboard-one
+	{
+		position:relative;
+	}
+
+	.carousel-one-content,
+	.billboard-one-content
+	{
+		@extend .container;
+		position:relative;
+		z-index: 1;	
+	}
+
+	.carousel-one-backgrounds,
+	.billboard-one-background
+	{
+		left: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    z-index: 0;
+		text-align:center;
+	}
+
+	.carousel-one-backgrounds img,
+	.billboard-one-background img
+	{
+		height: auto;
+		width: 100%;
+	}
+
+}
+
+@include breakpoint($small, true)
+{
+	
+	.ymca-theme-one
+	{
+		
+		.region.hero
+		{
+			position:relative;
+			margin-top:0;
+			z-index:1;
+		}
+	
+		.region.header
+		{
+			position:relative;
+			-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.6);
+			-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.6);
+			box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.6);
+			z-index:2;
+		}
+	}
+	
+}

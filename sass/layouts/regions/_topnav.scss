@@ -1,0 +1,82 @@
+.topnav 
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:100;
+	text-align:center;
+	background:#fff;
+	min-height:35px;
+}
+
+
+.menu-ymca .content
+{
+		
+	.sf-accordion-toggle a
+	{
+	    display: block;
+	    font-size: 150%;
+	    padding: 0;
+	}
+	
+	.sf-accordion
+	{
+	
+		li
+		{
+			@include border-radius(8px);
+		}
+		
+		a, a.sf-depth-1
+		{
+			display: block;
+		    max-width: initial;
+		    min-height: initial;
+		}
+		
+		li li
+		{
+			border-radius: 0;
+		}
+		
+		li ul
+		{
+			@include border-radius(8px);
+		}
+		
+	}
+
+}
+
+@include breakpoint($small, true)
+{
+	
+	.topnav 
+	{
+		top:20px;
+		background:none;
+		min-height:initial;
+	}
+
+	.topnav ul.sf-menu
+	{
+		background-color:#ffffff;
+		@include border-radius(5px);
+		@include pie-clearfix;
+	}
+	
+	.topnav li.sf-depth-1 ul
+	{
+		text-align: left;		
+	}
+	
+	
+}
+
+
+.sf-accordion-toggle 
+{
+	
+}

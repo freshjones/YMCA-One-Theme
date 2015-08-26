@@ -1,0 +1,26 @@
+.tag-list ul
+{
+	@extend .no-style;
+}
+
+.tag-list li
+{
+	@include inline-block;
+	margin-top:0;
+}
+
+.tag-list li
+{
+	@extend .pill;
+	@extend .pill-knockout;
+}
+
+.tag-list li
+{
+	margin-bottom:10px;
+}
+
+.tag-list li
+{
+	margin-right:5px;
+}
