@@ -1,0 +1,6 @@
+name = ellie blank
+description = ellie blank theme
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/styles.css
