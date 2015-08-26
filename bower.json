@@ -1,5 +1,5 @@
 {
-  "name": "sdymca.org",
+  "name": "elliesites.com",
   "version": "0.0.1",
   "authors": [
     "William Jones <billy@freshjones.com>"
@@ -15,8 +15,9 @@
     "test",
     "tests"
   ],
-  "dependencies": {
+  "devDependencies": {
     "compass-mixins": "~1.0.2",
-    "singularity": "~1.6.2"
+    "singularity": "~1.6.2",
+    "sass-toolkit": "~2.9.0"
   }
 }
