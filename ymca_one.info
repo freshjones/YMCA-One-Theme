@@ -1,5 +1,5 @@
-name = ellie blank
-description = ellie blank theme
+name = YMCA One
+description = An ellie theme
 core = 7.x
 engine = phptemplate
 
