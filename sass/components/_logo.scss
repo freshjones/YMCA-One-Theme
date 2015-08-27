@@ -1,0 +1,67 @@
+.logo,.logo a
+{
+	height: 140px;
+	width: 160px;
+	overflow: hidden;
+	display: block;
+}
+
+.logo
+{
+	background-image: url('../logo.png');
+	background-position:0 -420px;
+}
+
+.logo a
+{
+    text-indent:-100px;
+}
+
+.color-scheme-orange, #themeroller .color-scheme-orange
+{
+	.logo
+	{
+		background-position:0 0;
+	}
+}
+
+.color-scheme-red, #themeroller .color-scheme-red
+{
+	.logo
+	{
+		background-position:0 -140px;
+	}
+}
+
+.color-scheme-purple, #themeroller .color-scheme-purple 
+{
+	.logo
+	{
+		background-position:0 -280px;
+	}
+}
+
+.color-scheme-blue, #themeroller .color-scheme-blue
+{
+	.logo
+	{
+		background-position:0 -420px;
+	}
+}
+
+.color-scheme-green, #themeroller .color-scheme-green 
+{
+	.logo
+	{
+		background-position:0 -560px;
+	}
+}
+
+.knockout 
+{
+	.logo
+	{
+		background-position:0 -700px;
+	}
+}
+

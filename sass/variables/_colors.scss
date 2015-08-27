@@ -7,38 +7,64 @@ $default: #0088ce;
 $background-color: #fff;
 
 /* -------BLUE-------  */
-$blue-top: #0088ce;
-$blue-bottom: #0060af;
-
-$blue-secondary-top: #1dbbbc;
-$blue-secondary-bottom: #006c6c;
-
-$green-top: #01a290;
-$green-bottom: #01a491;
-
-
-/* -------TEAL-------  */
-$teal-top: #01a290;
-$teal-bottom: #006b6b;
-
-$teal-secondary-top: #fbab18;
-$teal-secondary-bottom: #f47b1e;
+$blue-top: #55a9ec;
+$blue-middle: #4684cc;
+$blue-bottom: #3658ab;
 
 
 /* -------PURPLE-------  */
-$purple-top: #92278f;
-$purple-bottom: #5c2e91;
+$purple-top: #b9008c;
+$purple-middle: #8b008d;
+$purple-bottom: #5e0f8f;
 
-$purple-secondary-top: #00a8e9;
-$purple-secondary-bottom: #0190d6;
+
+/* -------RED-------  */
+$red-top: #e05332;
+$red-middle: #dd0031;
+$red-bottom: #9d1e36;
 
 
 /* -------ORANGE-------  */
-$orange-top: #f47820;
-$orange-bottom: #dc5828;
+$orange-top: #eeb135;
+$orange-middle: #e57633; 
+$orange-bottom: #cf5333;
 
-$orange-secondary-top:#f53a08;
-$orange-secondary-bottom:#e11a17;
+
+/* -------GREEN-------  */
+$green-top: #57bebb;
+$green-middle: #43af95;     
+$green-bottom: #296c6a;
+
+
+
+/* -------BLUE SECONDARY (PURPLE)-------  */
+$blue-secondary-top: $purple-top;
+$blue-secondary-middle: $purple-middle;
+$blue-secondary-bottom: $purple-bottom;
+
+
+/* -------PURPLE SECONDARY (RED)-------  */
+$purple-secondary-top: $red-top;
+$purple-secondary-middle: $red-middle;
+$purple-secondary-bottom: $red-bottom;
+
+
+/* -------RED SECONDARY (ORANGE)-------  */
+$red-secondary-top: $orange-top;
+$red-secondary-middle: $orange-middle;
+$red-secondary-bottom: $orange-bottom;
+
+
+/* -------ORANGE SECONDARY (GREEN)-------  */
+$orange-secondary-top: $green-top;
+$orange-secondary-middle: $green-middle;
+$orange-secondary-bottom: $green-bottom;
+
+
+/* -------GREEN SECONDARY (BLUE)-------  */
+$green-secondary-top: $blue-top;
+$green-secondary-middle: $blue-middle;
+$green-secondary-bottom: $blue-bottom;
 
 
 $yellow-light: #fefabd;
@@ -56,7 +82,6 @@ $main-bottom: $blue-bottom;
 
 $secondary-top: $green-top;
 $secondary-bottom: $green-bottom;
-
 
 $badge-success: #5cb85c;
 $badge-primary: #337ab7;

@@ -1,19 +1,24 @@
-.ymca-color-scheme-blue
+.color-scheme-blue, #themeroller .color-scheme-blue
 {
 	@include setColorScheme;
 }
 
-.ymca-color-scheme-orange
-{
-	@include setColorScheme($scheme:orange);
-}
-
-.ymca-color-scheme-purple
+.color-scheme-purple, #themeroller .color-scheme-purple
 {
 	@include setColorScheme($scheme:purple);
 }
 
-.ymca-color-scheme-teal
+.color-scheme-red, #themeroller .color-scheme-red
 {
-	@include setColorScheme($scheme:teal);
+	@include setColorScheme($scheme:red);
+}
+
+.color-scheme-orange, #themeroller .color-scheme-orange
+{
+	@include setColorScheme($scheme:orange);
+}
+
+.color-scheme-green, #themeroller .color-scheme-green
+{
+	@include setColorScheme($scheme:green);
 }

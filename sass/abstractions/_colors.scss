@@ -115,36 +115,41 @@
 @mixin setColorScheme($scheme:blue, $color:#fff)
 {
 	
-	$primary-top:		$blue-top;
+	$primary-top:		$blue-middle;
 	$primary-bottom: 	$blue-bottom;
-	$secondary-top:		$blue-secondary-top;
+	$secondary-top:		$blue-secondary-middle;
 	$secondary-bottom: 	$blue-secondary-bottom;
-	
-	@if $scheme == orange {
-
-		$primary-top:		$orange-top;
-		$primary-bottom: 	$orange-bottom;
-		$secondary-top:		$orange-secondary-top;
-		$secondary-bottom: 	$orange-secondary-bottom;
-	
-	} 
 	
 	@if $scheme == purple {
 
-		$primary-top:		$purple-top;
+		$primary-top:		$purple-middle;
 		$primary-bottom: 	$purple-bottom;
-		$secondary-top:		$purple-secondary-top;
+		$secondary-top:		$purple-secondary-middle;
 		$secondary-bottom: 	$purple-secondary-bottom;
-	
+	} 
+
+	@if $scheme == red {
+
+		$primary-top:		$red-middle;
+		$primary-bottom: 	$red-bottom;
+		$secondary-top:		$red-secondary-middle;
+		$secondary-bottom: 	$red-secondary-bottom;
+	} 
+
+	@if $scheme == orange {
+
+		$primary-top:		$orange-middle;
+		$primary-bottom: 	$orange-bottom;
+		$secondary-top:		$orange-secondary-middle;
+		$secondary-bottom: 	$orange-secondary-bottom;
 	} 
 	
-	@if $scheme == teal {
+	@if $scheme == green {
 
-		$primary-top:		$teal-top;
-		$primary-bottom: 	$teal-bottom;
-		$secondary-top:		$teal-secondary-top;
-		$secondary-bottom: 	$teal-secondary-bottom;
-	
+		$primary-top:		$green-middle;
+		$primary-bottom: 	$green-bottom;
+		$secondary-top:		$green-secondary-middle;
+		$secondary-bottom: 	$green-secondary-bottom;
 	}
 	
 	a,h1

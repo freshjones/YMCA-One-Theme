@@ -492,9 +492,15 @@ video {
 }
 
 /* -------BLUE-------  */
-/* -------TEAL-------  */
 /* -------PURPLE-------  */
+/* -------RED-------  */
 /* -------ORANGE-------  */
+/* -------GREEN-------  */
+/* -------BLUE SECONDARY (PURPLE)-------  */
+/* -------PURPLE SECONDARY (RED)-------  */
+/* -------RED SECONDARY (ORANGE)-------  */
+/* -------ORANGE SECONDARY (GREEN)-------  */
+/* -------GREEN SECONDARY (BLUE)-------  */
 /* ABSTRACTIONS */
 @media (min-width: 768px) {
   /* line 8, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/layouts/page/_ds-grids.scss */
@@ -1163,7 +1169,7 @@ body > .page {
 
 /* line 34, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_base.scss */
 a {
-  color: #0088ce;
+  color: #55a9ec;
 }
 
 /*
@@ -1172,7 +1178,7 @@ a:hover
 	text-decoration: underline;
 }
 */
-/* line 46, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_base.scss */
+/* line 47, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_base.scss */
 img {
   border: none;
 }
@@ -1313,19 +1319,19 @@ img {
 /* line 82, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
 .btn.green, .btn-green, input.green[type="submit"] {
   color: #fff;
-  background-color: #01a290;
-  box-shadow: #0cfde2 0 1px 0 inset;
-  border: 1px solid #016f63;
+  background-color: #57bebb;
+  box-shadow: #a1dad9 0 1px 0 inset;
+  border: 1px solid #3fa3a0;
 }
 
 /* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
 .btn.green:hover, .btn-green:hover, input.green[type="submit"]:hover {
-  background-color: #016f63;
+  background-color: #3fa3a0;
 }
 
 /* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
 .btn.green.disabled, .disabled.btn-green, input.green.disabled[type="submit"], .btn.green[disabled], [disabled].btn-green, input.green[disabled][type="submit"] {
-  background: #01d5bd;
+  background: #7cccca;
 }
 
 /* line 6, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_buttons.scss */
@@ -1348,7 +1354,7 @@ img {
 /* line 39, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_buttons.scss */
 .btn-knockout a, a.btn-knockout,
 .btn-knockout a:hover, a.btn-knockout:hover {
-  color: #0088ce !important;
+  color: #55a9ec !important;
 }
 
 /* line 44, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_buttons.scss */
@@ -2758,12 +2764,12 @@ ul.primary li a, .search-form {
 
 /* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
 .blue {
-  color: #0088ce !important;
+  color: #55a9ec !important;
 }
 
 /* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
 .green {
-  color: #01a290 !important;
+  color: #57bebb !important;
 }
 
 /* line 208, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
@@ -2786,12 +2792,17 @@ ul.primary li a, .search-form {
   color: #b89559;
 }
 
-/* line 229, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
+/* line 228, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
+.pointer {
+  cursor: pointer;
+}
+
+/* line 232, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
 .shadowtext {
   text-shadow: compact(compact(1px 1px 3px 3px rgba(0, 0, 0, 0.6)), false, false, false, false, false, false, false, false, false);
 }
 
-/* line 234, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
+/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
 .ymca-text, h1, h2, .site-name, h3,
 .like-h1,
 .like-h2,
@@ -2803,12 +2814,12 @@ li a {
   font-weight: normal;
 }
 
-/* line 241, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
+/* line 244, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
 .nowrap {
   white-space: nowrap;
 }
 
-/* line 246, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
+/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/base/_typography.scss */
 .regular-text, .menu-ymca .content
 li li a, .ymca-secondary-menu .pane-content
 li li a {
@@ -3570,6 +3581,71 @@ li, .prl-5, .prl-slim, .plr5, .plr-5, .plr-slim {
     margin-right: 30px;
     margin-left: 30px;
   }
+}
+
+/* line 1, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.logo, .logo a {
+  height: 140px;
+  width: 160px;
+  overflow: hidden;
+  display: block;
+}
+
+/* line 9, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.logo {
+  background-image: url("../logo.png");
+  background-position: 0 -420px;
+}
+
+/* line 15, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.logo a {
+  text-indent: -100px;
+}
+
+/* line 22, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.color-scheme-orange
+.logo
+, #themeroller .color-scheme-orange
+.logo {
+  background-position: 0 0;
+}
+
+/* line 30, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.color-scheme-red
+.logo
+, #themeroller .color-scheme-red
+.logo {
+  background-position: 0 -140px;
+}
+
+/* line 38, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.color-scheme-purple
+.logo
+, #themeroller .color-scheme-purple
+.logo {
+  background-position: 0 -280px;
+}
+
+/* line 46, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.color-scheme-blue
+.logo
+, #themeroller .color-scheme-blue
+.logo {
+  background-position: 0 -420px;
+}
+
+/* line 54, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.color-scheme-green
+.logo
+, #themeroller .color-scheme-green
+.logo {
+  background-position: 0 -560px;
+}
+
+/* line 62, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_logo.scss */
+.knockout
+.logo {
+  background-position: 0 -700px;
 }
 
 /* line 1, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/components/_billboards.scss */
@@ -4902,1939 +4978,3823 @@ ul.facebook-feed .facebook-note-time {
   margin-right: 5px;
 }
 
-/* line 150, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue a, .ymca-color-scheme-blue
-h1 {
-  color: #0088ce;
-}
-
 /* line 155, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+.color-scheme-blue a, .color-scheme-blue
+h1
+, #themeroller .color-scheme-blue a, #themeroller .color-scheme-blue
+h1 {
+  color: #4684cc;
+}
+
+/* line 160, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+a:hover
+, #themeroller .color-scheme-blue
 a:hover {
-  color: #1dbbbc;
+  color: #8b008d;
 }
 
-/* line 161, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue h2, .ymca-color-scheme-blue .site-name, .ymca-color-scheme-blue
+/* line 166, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue h2, .color-scheme-blue .site-name, .color-scheme-blue
+h3
+, #themeroller .color-scheme-blue h2, #themeroller .color-scheme-blue .site-name, #themeroller .color-scheme-blue
 h3 {
-  color: #1dbbbc;
-}
-
-/* line 167, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.primary-color {
-  color: #0088ce;
+  color: #8b008d;
 }
 
 /* line 172, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.secondary-color {
-  color: #1dbbbc;
+.color-scheme-blue
+.primary-color
+, #themeroller .color-scheme-blue
+.primary-color {
+  color: #4684cc;
 }
 
 /* line 177, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+.color-scheme-blue
+.secondary-color
+, #themeroller .color-scheme-blue
+.secondary-color {
+  color: #8b008d;
+}
+
+/* line 182, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.slide-scroll .row-center
+, #themeroller .color-scheme-blue
 .slide-scroll .row-center {
-  background-color: #1cb2b3;
-  background: -webkit-linear-gradient(left, #006262, #1cb2b3);
-  background: -o-linear-gradient(right, #006262, #1cb2b3);
-  background: -moz-linear-gradient(right, #006262, #1cb2b3);
-  background: linear-gradient(to right, #006262, #1cb2b3);
+  background-color: #810083;
+  background: -webkit-linear-gradient(left, #580e86, #810083);
+  background: -o-linear-gradient(right, #580e86, #810083);
+  background: -moz-linear-gradient(right, #580e86, #810083);
+  background: linear-gradient(to right, #580e86, #810083);
   color: #fff;
 }
 
 /* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.slide-scroll .row-center a, .ymca-color-scheme-blue
-.slide-scroll .row-center h2, .ymca-color-scheme-blue
-.slide-scroll .row-center .site-name, .ymca-color-scheme-blue
-.slide-scroll .row-center h3, .ymca-color-scheme-blue
-.slide-scroll .row-center h4, .ymca-color-scheme-blue
+.color-scheme-blue
+.slide-scroll .row-center
+a, .color-scheme-blue
+.slide-scroll .row-center
+h2, .color-scheme-blue
+.slide-scroll .row-center
+.site-name, .color-scheme-blue
+.slide-scroll .row-center
+h3, .color-scheme-blue
+.slide-scroll .row-center
+h4, .color-scheme-blue
+.slide-scroll .row-center
+h5
+, #themeroller .color-scheme-blue
+.slide-scroll .row-center a, #themeroller .color-scheme-blue
+.slide-scroll .row-center h2, #themeroller .color-scheme-blue
+.slide-scroll .row-center .site-name, #themeroller .color-scheme-blue
+.slide-scroll .row-center h3, #themeroller .color-scheme-blue
+.slide-scroll .row-center h4, #themeroller .color-scheme-blue
 .slide-scroll .row-center
 h5 {
   color: #fff;
 }
 
-/* line 183, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.slide-scroll .row-center:after
+, #themeroller .color-scheme-blue
 .slide-scroll .row-center:after {
-  border-left-color: #1cb2b3;
+  border-left-color: #810083;
 }
 
-/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.slide-scroll .slide-hover
+, #themeroller .color-scheme-blue
 .slide-scroll .slide-hover {
-  background: -webkit-linear-gradient(left, #0066b9, #008fd8);
-  background: -o-linear-gradient(right, #0066b9, #008fd8);
-  background: -moz-linear-gradient(right, #0066b9, #008fd8);
-  background: linear-gradient(to right, #0066b9, #008fd8);
+  background: -webkit-linear-gradient(left, #385cb3, #4e89ce);
+  background: -o-linear-gradient(right, #385cb3, #4e89ce);
+  background: -moz-linear-gradient(right, #385cb3, #4e89ce);
+  background: linear-gradient(to right, #385cb3, #4e89ce);
   color: #fff;
 }
 
 /* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.slide-scroll .slide-hover a, .ymca-color-scheme-blue
-.slide-scroll .slide-hover h2, .ymca-color-scheme-blue
-.slide-scroll .slide-hover .site-name, .ymca-color-scheme-blue
-.slide-scroll .slide-hover h3, .ymca-color-scheme-blue
-.slide-scroll .slide-hover h4, .ymca-color-scheme-blue
+.color-scheme-blue
+.slide-scroll .slide-hover
+a, .color-scheme-blue
+.slide-scroll .slide-hover
+h2, .color-scheme-blue
+.slide-scroll .slide-hover
+.site-name, .color-scheme-blue
+.slide-scroll .slide-hover
+h3, .color-scheme-blue
+.slide-scroll .slide-hover
+h4, .color-scheme-blue
+.slide-scroll .slide-hover
+h5
+, #themeroller .color-scheme-blue
+.slide-scroll .slide-hover a, #themeroller .color-scheme-blue
+.slide-scroll .slide-hover h2, #themeroller .color-scheme-blue
+.slide-scroll .slide-hover .site-name, #themeroller .color-scheme-blue
+.slide-scroll .slide-hover h3, #themeroller .color-scheme-blue
+.slide-scroll .slide-hover h4, #themeroller .color-scheme-blue
 .slide-scroll .slide-hover
 h5 {
   color: #fff;
 }
 
-/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.slide-scroll .slide-hover:after
+, #themeroller .color-scheme-blue
 .slide-scroll .slide-hover:after {
-  border-left-color: #008fd8;
+  border-left-color: #4e89ce;
 }
 
-/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue .region-header, .ymca-color-scheme-blue
+/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue .region-header, .color-scheme-blue
+.bg-primary-gradient
+, #themeroller .color-scheme-blue .region-header, #themeroller .color-scheme-blue
 .bg-primary-gradient {
-  background: #0088ce;
-  background: -webkit-linear-gradient(#0088ce, #0060af);
-  background: -o-linear-gradient(#0088ce, #0060af);
-  background: -moz-linear-gradient(#0088ce, #0060af);
-  background: linear-gradient(#0088ce, #0060af);
+  background: #55a9ec;
+  background: -webkit-linear-gradient(#55a9ec, #3658ab);
+  background: -o-linear-gradient(#55a9ec, #3658ab);
+  background: -moz-linear-gradient(#55a9ec, #3658ab);
+  background: linear-gradient(#55a9ec, #3658ab);
   color: #fff;
 }
 
 /* line 91, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue .region-header a, .ymca-color-scheme-blue .region-header h2, .ymca-color-scheme-blue .region-header .site-name, .ymca-color-scheme-blue .region-header h3, .ymca-color-scheme-blue .region-header h4, .ymca-color-scheme-blue .region-header
+.color-scheme-blue .region-header a, .color-scheme-blue .region-header h2, .color-scheme-blue .region-header .site-name, .color-scheme-blue .region-header h3, .color-scheme-blue .region-header h4, .color-scheme-blue .region-header
 h5
-, .ymca-color-scheme-blue
-.bg-primary-gradient a, .ymca-color-scheme-blue
-.bg-primary-gradient h2, .ymca-color-scheme-blue
-.bg-primary-gradient .site-name, .ymca-color-scheme-blue
-.bg-primary-gradient h3, .ymca-color-scheme-blue
-.bg-primary-gradient h4, .ymca-color-scheme-blue
+, .color-scheme-blue
+.bg-primary-gradient
+a, .color-scheme-blue
+.bg-primary-gradient
+h2, .color-scheme-blue
+.bg-primary-gradient
+.site-name, .color-scheme-blue
+.bg-primary-gradient
+h3, .color-scheme-blue
+.bg-primary-gradient
+h4, .color-scheme-blue
+.bg-primary-gradient
+h5
+, #themeroller .color-scheme-blue .region-header a, #themeroller .color-scheme-blue .region-header h2, #themeroller .color-scheme-blue .region-header .site-name, #themeroller .color-scheme-blue .region-header h3, #themeroller .color-scheme-blue .region-header h4, #themeroller .color-scheme-blue .region-header
+h5
+, #themeroller .color-scheme-blue
+.bg-primary-gradient a, #themeroller .color-scheme-blue
+.bg-primary-gradient h2, #themeroller .color-scheme-blue
+.bg-primary-gradient .site-name, #themeroller .color-scheme-blue
+.bg-primary-gradient h3, #themeroller .color-scheme-blue
+.bg-primary-gradient h4, #themeroller .color-scheme-blue
 .bg-primary-gradient
 h5 {
   color: #fff;
 }
 
-/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 208, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.primary-bg-color
+, #themeroller .color-scheme-blue
 .primary-bg-color {
-  background-color: #0088ce;
-  color: #fff;
-}
-
-/* line 209, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.well-knockout-info {
-  background-color: #0088ce;
+  background-color: #4684cc;
   color: #fff;
 }
 
 /* line 214, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.well-knockout-info h1, .ymca-color-scheme-blue
-.well-knockout-info h2, .ymca-color-scheme-blue
-.well-knockout-info .site-name, .ymca-color-scheme-blue
-.well-knockout-info h3, .ymca-color-scheme-blue
+.color-scheme-blue
+.well-knockout-info
+, #themeroller .color-scheme-blue
+.well-knockout-info {
+  background-color: #4684cc;
+  color: #fff;
+}
+
+/* line 219, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.well-knockout-info
+h1, .color-scheme-blue
+.well-knockout-info
+h2, .color-scheme-blue
+.well-knockout-info
+.site-name, .color-scheme-blue
+.well-knockout-info
+h3, .color-scheme-blue
+.well-knockout-info
+a
+, #themeroller .color-scheme-blue
+.well-knockout-info h1, #themeroller .color-scheme-blue
+.well-knockout-info h2, #themeroller .color-scheme-blue
+.well-knockout-info .site-name, #themeroller .color-scheme-blue
+.well-knockout-info h3, #themeroller .color-scheme-blue
 .well-knockout-info
 a {
   color: #fff;
 }
 
-/* line 221, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.primary-bg-color-top
+, #themeroller .color-scheme-blue
 .primary-bg-color-top {
-  background-color: #0088ce;
+  background-color: #4684cc;
   color: #fff;
 }
 
-/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.primary-bg-color-top h1, .ymca-color-scheme-blue
-.primary-bg-color-top h2, .ymca-color-scheme-blue
-.primary-bg-color-top .site-name, .ymca-color-scheme-blue
-.primary-bg-color-top h3, .ymca-color-scheme-blue
+/* line 231, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.primary-bg-color-top
+h1, .color-scheme-blue
+.primary-bg-color-top
+h2, .color-scheme-blue
+.primary-bg-color-top
+.site-name, .color-scheme-blue
+.primary-bg-color-top
+h3, .color-scheme-blue
+.primary-bg-color-top
+a
+, #themeroller .color-scheme-blue
+.primary-bg-color-top h1, #themeroller .color-scheme-blue
+.primary-bg-color-top h2, #themeroller .color-scheme-blue
+.primary-bg-color-top .site-name, #themeroller .color-scheme-blue
+.primary-bg-color-top h3, #themeroller .color-scheme-blue
 .primary-bg-color-top
 a {
   color: #fff;
 }
 
-/* line 232, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.primary-bg-color-bottom
+, #themeroller .color-scheme-blue
 .primary-bg-color-bottom {
-  background-color: #0060af;
+  background-color: #3658ab;
   color: #fff;
 }
 
-/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.primary-bg-color-bottom h1, .ymca-color-scheme-blue
-.primary-bg-color-bottom h2, .ymca-color-scheme-blue
-.primary-bg-color-bottom .site-name, .ymca-color-scheme-blue
-.primary-bg-color-bottom h3, .ymca-color-scheme-blue
+/* line 242, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.primary-bg-color-bottom
+h1, .color-scheme-blue
+.primary-bg-color-bottom
+h2, .color-scheme-blue
+.primary-bg-color-bottom
+.site-name, .color-scheme-blue
+.primary-bg-color-bottom
+h3, .color-scheme-blue
+.primary-bg-color-bottom
+a
+, #themeroller .color-scheme-blue
+.primary-bg-color-bottom h1, #themeroller .color-scheme-blue
+.primary-bg-color-bottom h2, #themeroller .color-scheme-blue
+.primary-bg-color-bottom .site-name, #themeroller .color-scheme-blue
+.primary-bg-color-bottom h3, #themeroller .color-scheme-blue
 .primary-bg-color-bottom
 a {
   color: #fff;
 }
 
-/* line 244, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.secondary-bg-color
+, #themeroller .color-scheme-blue
 .secondary-bg-color {
-  background-color: #1dbbbc;
+  background-color: #8b008d;
   color: #fff;
 }
 
-/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.secondary-bg-color h1, .ymca-color-scheme-blue
-.secondary-bg-color h2, .ymca-color-scheme-blue
-.secondary-bg-color .site-name, .ymca-color-scheme-blue
-.secondary-bg-color h3, .ymca-color-scheme-blue
+/* line 254, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.secondary-bg-color
+h1, .color-scheme-blue
+.secondary-bg-color
+h2, .color-scheme-blue
+.secondary-bg-color
+.site-name, .color-scheme-blue
+.secondary-bg-color
+h3, .color-scheme-blue
+.secondary-bg-color
+a
+, #themeroller .color-scheme-blue
+.secondary-bg-color h1, #themeroller .color-scheme-blue
+.secondary-bg-color h2, #themeroller .color-scheme-blue
+.secondary-bg-color .site-name, #themeroller .color-scheme-blue
+.secondary-bg-color h3, #themeroller .color-scheme-blue
 .secondary-bg-color
 a {
   color: #fff;
 }
 
-/* line 255, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 260, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.secondary-bg-color-top
+, #themeroller .color-scheme-blue
 .secondary-bg-color-top {
-  background-color: #1dbbbc;
+  background-color: #8b008d;
   color: #fff;
 }
 
-/* line 261, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 266, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.secondary-bg-color-bottom
+, #themeroller .color-scheme-blue
 .secondary-bg-color-bottom {
-  background-color: #006c6c;
+  background-color: #5e0f8f;
   color: #fff;
-}
-
-/* line 267, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.btn-primary {
-  color: #fff;
-  background-color: #088ccf;
-  box-shadow: #45bcf8 0 1px 0 inset;
-  border: 1px solid #066b9e;
-}
-
-/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-blue
-.btn-primary:hover {
-  background-color: #066b9e;
-}
-
-/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-blue
-.btn-primary.disabled, .ymca-color-scheme-blue
-.btn-primary[disabled] {
-  background: #14aaf6;
 }
 
 /* line 272, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.btn-secondary {
+.color-scheme-blue
+.btn-primary
+, #themeroller .color-scheme-blue
+.btn-primary {
   color: #fff;
-  background-color: #24bdbe;
-  box-shadow: #66e1e2 0 1px 0 inset;
-  border: 1px solid #1c9293;
+  background-color: #4c88ce;
+  box-shadow: #9cbde4 0 1px 0 inset;
+  border: 1px solid #326eb5;
 }
 
 /* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-blue
-.btn-secondary:hover {
-  background-color: #1c9293;
+.color-scheme-blue
+.btn-primary
+:hover
+, #themeroller .color-scheme-blue
+.btn-primary:hover {
+  background-color: #326eb5;
 }
 
 /* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-blue
-.btn-secondary.disabled, .ymca-color-scheme-blue
-.btn-secondary[disabled] {
-  background: #3bd9da;
+.color-scheme-blue
+.btn-primary
+.disabled, .color-scheme-blue
+.btn-primary
+[disabled]
+, #themeroller .color-scheme-blue
+.btn-primary.disabled, #themeroller .color-scheme-blue
+.btn-primary[disabled] {
+  background: #74a3d9;
 }
 
 /* line 277, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+.color-scheme-blue
+.btn-secondary
+, #themeroller .color-scheme-blue
+.btn-secondary {
+  color: #fff;
+  background-color: #8e0890;
+  box-shadow: #ed0df1 0 1px 0 inset;
+  border: 1px solid #5e0560;
+}
+
+/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-blue
+.btn-secondary
+:hover
+, #themeroller .color-scheme-blue
+.btn-secondary:hover {
+  background-color: #5e0560;
+}
+
+/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-blue
+.btn-secondary
+.disabled, .color-scheme-blue
+.btn-secondary
+[disabled]
+, #themeroller .color-scheme-blue
+.btn-secondary.disabled, #themeroller .color-scheme-blue
+.btn-secondary[disabled] {
+  background: #be0bc0;
+}
+
+/* line 282, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.billboard-empty
+, #themeroller .color-scheme-blue
 .billboard-empty {
   background-color: #cccccc;
 }
 
-/* line 285, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 290, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.menu-ymca
+a
+, #themeroller .color-scheme-blue
 .menu-ymca
 a {
-  color: #0088ce;
+  color: #4684cc;
 }
 
-/* line 291, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.menu-ymca li li a, .ymca-color-scheme-blue
+/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.menu-ymca
+li li a, .color-scheme-blue
+.menu-ymca
+li.sf-expanded a
+, #themeroller .color-scheme-blue
+.menu-ymca li li a, #themeroller .color-scheme-blue
 .menu-ymca
 li.sf-expanded a {
   color: #fff;
 }
 
-/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.menu-ymca li ul, .ymca-color-scheme-blue
+/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.menu-ymca
+li ul, .color-scheme-blue
+.menu-ymca
+li.sf-expanded
+, #themeroller .color-scheme-blue
+.menu-ymca li ul, #themeroller .color-scheme-blue
 .menu-ymca
 li.sf-expanded {
-  background: #0088ce;
-}
-
-/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.menu-ymca
-li li {
-  border-top: 1px solid #005f90;
+  background: #4684cc;
 }
 
 /* line 306, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+.color-scheme-blue
+.menu-ymca
+li li
+, #themeroller .color-scheme-blue
 .menu-ymca
 li li {
-  border-top: 1px solid #005f90;
+  border-top: 1px solid #315c8f;
 }
 
 /* line 311, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.menu-ymca li li.sfHover, .ymca-color-scheme-blue
+.color-scheme-blue
 .menu-ymca
-li li:hover {
-  background: #0081c4;
+li li
+, #themeroller .color-scheme-blue
+.menu-ymca
+li li {
+  border-top: 1px solid #315c8f;
 }
 
 /* line 316, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+.color-scheme-blue
 .menu-ymca
-.sf-sub-indicator {
-  color: #0088ce;
+li li.sfHover, .color-scheme-blue
+.menu-ymca
+li li:hover
+, #themeroller .color-scheme-blue
+.menu-ymca li li.sfHover, #themeroller .color-scheme-blue
+.menu-ymca
+li li:hover {
+  background: #437dc2;
 }
 
 /* line 321, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.menu-ymca li.sfHover, .ymca-color-scheme-blue
+.color-scheme-blue
 .menu-ymca
-li:hover {
-  background: #0088ce;
+.sf-sub-indicator
+, #themeroller .color-scheme-blue
+.menu-ymca
+.sf-sub-indicator {
+  color: #4684cc;
 }
 
-/* line 325, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.menu-ymca li.sfHover a, .ymca-color-scheme-blue
+/* line 326, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.menu-ymca
+li.sfHover, .color-scheme-blue
+.menu-ymca
+li:hover
+, #themeroller .color-scheme-blue
+.menu-ymca li.sfHover, #themeroller .color-scheme-blue
+.menu-ymca
+li:hover {
+  background: #4684cc;
+}
+
+/* line 330, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.menu-ymca
+li.sfHover a, .color-scheme-blue
+.menu-ymca
+li.sfHover
+.sf-sub-indicator
+, .color-scheme-blue
+.menu-ymca
+li:hover
+a, .color-scheme-blue
+.menu-ymca
+li:hover
+.sf-sub-indicator
+, #themeroller .color-scheme-blue
+.menu-ymca li.sfHover a, #themeroller .color-scheme-blue
 .menu-ymca li.sfHover
 .sf-sub-indicator
-, .ymca-color-scheme-blue
+, #themeroller .color-scheme-blue
 .menu-ymca
-li:hover a, .ymca-color-scheme-blue
+li:hover a, #themeroller .color-scheme-blue
 .menu-ymca
 li:hover
 .sf-sub-indicator {
   color: #fff;
 }
 
-/* line 333, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.menu-ymca li.active-trail, .ymca-color-scheme-blue
-.menu-ymca li.active, .ymca-color-scheme-blue
-.menu-ymca li li.active-trail, .ymca-color-scheme-blue
+/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.menu-ymca
+li.active-trail, .color-scheme-blue
+.menu-ymca
+li.active, .color-scheme-blue
+.menu-ymca
+li li.active-trail, .color-scheme-blue
+.menu-ymca
+li li.active
+, #themeroller .color-scheme-blue
+.menu-ymca li.active-trail, #themeroller .color-scheme-blue
+.menu-ymca li.active, #themeroller .color-scheme-blue
+.menu-ymca li li.active-trail, #themeroller .color-scheme-blue
 .menu-ymca
 li li.active {
-  background: #cce7f5;
-  color: #0088ce;
+  background: #dae6f5;
+  color: #4684cc;
 }
 
-/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.menu-ymca li.active-trail > a, .ymca-color-scheme-blue
+/* line 343, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.menu-ymca
+li.active-trail > a, .color-scheme-blue
+.menu-ymca
+li.active-trail
+.sf-sub-indicator
+, .color-scheme-blue
+.menu-ymca
+li.active > a, .color-scheme-blue
+.menu-ymca
+li.active
+.sf-sub-indicator
+, .color-scheme-blue
+.menu-ymca
+li li.active-trail > a, .color-scheme-blue
+.menu-ymca
+li li.active-trail
+.sf-sub-indicator
+, .color-scheme-blue
+.menu-ymca
+li li.active
+> a, .color-scheme-blue
+.menu-ymca
+li li.active
+.sf-sub-indicator
+, #themeroller .color-scheme-blue
+.menu-ymca li.active-trail > a, #themeroller .color-scheme-blue
 .menu-ymca li.active-trail
 .sf-sub-indicator
-, .ymca-color-scheme-blue
-.menu-ymca li.active > a, .ymca-color-scheme-blue
+, #themeroller .color-scheme-blue
+.menu-ymca li.active > a, #themeroller .color-scheme-blue
 .menu-ymca li.active
 .sf-sub-indicator
-, .ymca-color-scheme-blue
-.menu-ymca li li.active-trail > a, .ymca-color-scheme-blue
+, #themeroller .color-scheme-blue
+.menu-ymca li li.active-trail > a, #themeroller .color-scheme-blue
 .menu-ymca li li.active-trail
 .sf-sub-indicator
-, .ymca-color-scheme-blue
+, #themeroller .color-scheme-blue
 .menu-ymca
-li li.active > a, .ymca-color-scheme-blue
+li li.active > a, #themeroller .color-scheme-blue
 .menu-ymca
 li li.active
 .sf-sub-indicator {
-  color: #0088ce;
+  color: #4684cc;
 }
 
 @media (min-width: 768px) {
-  /* line 347, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-blue
-.menu-ymca .sf-menu > li.first, .ymca-color-scheme-blue
+  /* line 352, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-blue
+.menu-ymca
+.sf-menu > li.first, .color-scheme-blue
+.menu-ymca
+.sf-menu > li.firstandlast
+, #themeroller .color-scheme-blue
+.menu-ymca .sf-menu > li.first, #themeroller .color-scheme-blue
 .menu-ymca
 .sf-menu > li.firstandlast {
-    background-color: #0088ce;
+    background-color: #4684cc;
   }
-  /* line 351, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-blue
+  /* line 356, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-blue
+.menu-ymca
+.sf-menu > li.first > a
+, .color-scheme-blue
+.menu-ymca
+.sf-menu > li.firstandlast
+> a
+, #themeroller .color-scheme-blue
 .menu-ymca .sf-menu > li.first > a
-, .ymca-color-scheme-blue
+, #themeroller .color-scheme-blue
 .menu-ymca
 .sf-menu > li.firstandlast > a {
     color: #fff;
   }
 }
 
-/* line 365, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.ymca-secondary-menu .pane-content
+.menu
+, #themeroller .color-scheme-blue
 .ymca-secondary-menu .pane-content
 .menu {
-  background: #0088ce;
-}
-
-/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.ymca-secondary-menu .pane-content
-li {
-  border-top: 1px solid #4dacdd;
+  background: #4684cc;
 }
 
 /* line 375, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+.color-scheme-blue
+.ymca-secondary-menu .pane-content
+li
+, #themeroller .color-scheme-blue
+.ymca-secondary-menu .pane-content
+li {
+  border-top: 1px solid #7ea9db;
+}
+
+/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.ymca-secondary-menu .pane-content
+li.first
+, #themeroller .color-scheme-blue
 .ymca-secondary-menu .pane-content
 li.first {
   border-top: none;
 }
 
-/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.ymca-secondary-menu .pane-content li.active-trail, .ymca-color-scheme-blue
-.ymca-secondary-menu .pane-content li.active-trail ul, .ymca-color-scheme-blue
+/* line 385, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.ymca-secondary-menu .pane-content
+li.active-trail, .color-scheme-blue
+.ymca-secondary-menu .pane-content
+li.active-trail ul, .color-scheme-blue
+.ymca-secondary-menu .pane-content
+li.active
+, #themeroller .color-scheme-blue
+.ymca-secondary-menu .pane-content li.active-trail, #themeroller .color-scheme-blue
+.ymca-secondary-menu .pane-content li.active-trail ul, #themeroller .color-scheme-blue
 .ymca-secondary-menu .pane-content
 li.active {
-  background: #e6f3fa;
+  background: #edf3fa;
 }
 
-/* line 384, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 389, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.ymca-secondary-menu .pane-content
+li.active-trail
+li
+, .color-scheme-blue
+.ymca-secondary-menu .pane-content
+li.active-trail ul
+li
+, .color-scheme-blue
+.ymca-secondary-menu .pane-content
+li.active
+li
+, #themeroller .color-scheme-blue
 .ymca-secondary-menu .pane-content li.active-trail
 li
-, .ymca-color-scheme-blue
+, #themeroller .color-scheme-blue
 .ymca-secondary-menu .pane-content li.active-trail ul
 li
-, .ymca-color-scheme-blue
+, #themeroller .color-scheme-blue
 .ymca-secondary-menu .pane-content
 li.active
 li {
   border: none;
 }
 
-/* line 391, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
-.ymca-secondary-menu .pane-content .active-trail a, .ymca-color-scheme-blue
+/* line 396, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.ymca-secondary-menu .pane-content
+.active-trail a, .color-scheme-blue
+.ymca-secondary-menu .pane-content
+li.active a
+, #themeroller .color-scheme-blue
+.ymca-secondary-menu .pane-content .active-trail a, #themeroller .color-scheme-blue
 .ymca-secondary-menu .pane-content
 li.active a {
-  color: #0088ce;
+  color: #4684cc;
 }
 
-/* line 398, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 403, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.site-selector-homepage .group-active
+, #themeroller .color-scheme-blue
 .site-selector-homepage .group-active {
-  border-top: 2px solid #66b8e2;
+  border-top: 2px solid #90b5e0;
 }
 
-/* line 405, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 410, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.nav-search
+input[type="text"], #themeroller .color-scheme-blue
 .nav-search input[type="text"] {
-  color: #cce7f5;
+  color: #dae6f5;
 }
 
-/* line 407, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 412, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.nav-search
+.search-fill
+, #themeroller .color-scheme-blue
 .nav-search
 .search-fill {
-  background-color: #33a0d8;
-  border: solid 1px #66b8e2;
+  background-color: #6b9dd6;
+  border: solid 1px #90b5e0;
 }
 
-/* line 415, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-blue
+/* line 420, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-blue
+.breadcrumbs
+, #themeroller .color-scheme-blue
 .breadcrumbs {
-  background-color: #006c6c;
+  background-color: #5e0f8f;
 }
 
 @media (min-width: 768px) {
-  /* line 423, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-blue
-th {
-    background-color: #d9edf8;
-  }
   /* line 428, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-blue tr.even, .ymca-color-scheme-blue
-tr.odd {
-    border-bottom: 1px solid #bfe1f3;
+  .color-scheme-blue
+th
+, #themeroller .color-scheme-blue
+th {
+    background-color: #e6f2fc;
   }
   /* line 433, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-blue
-tr.even {
-    background-color: #f2f9fd;
+  .color-scheme-blue tr.even, .color-scheme-blue
+tr.odd
+, #themeroller .color-scheme-blue tr.even, #themeroller .color-scheme-blue
+tr.odd {
+    border-bottom: 1px solid #d5eafa;
   }
   /* line 438, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-blue td.active {
-    background-color: #f2f9fd;
+  .color-scheme-blue
+tr.even
+, #themeroller .color-scheme-blue
+tr.even {
+    background-color: #f7fbfe;
   }
-  /* line 442, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-blue tr.even td.active {
-    background-color: #e6f3fa;
+  /* line 443, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-blue td.active, #themeroller .color-scheme-blue td.active {
+    background-color: #f7fbfe;
   }
-}
-
-/* line 150, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange a, .ymca-color-scheme-orange
-h1 {
-  color: #f47820;
+  /* line 447, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-blue tr.even td.active, #themeroller .color-scheme-blue tr.even td.active {
+    background-color: #eef6fd;
+  }
 }
 
 /* line 155, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+.color-scheme-purple a, .color-scheme-purple
+h1
+, #themeroller .color-scheme-purple a, #themeroller .color-scheme-purple
+h1 {
+  color: #8b008d;
+}
+
+/* line 160, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+a:hover
+, #themeroller .color-scheme-purple
 a:hover {
-  color: #f53a08;
+  color: #dd0031;
 }
 
-/* line 161, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange h2, .ymca-color-scheme-orange .site-name, .ymca-color-scheme-orange
+/* line 166, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple h2, .color-scheme-purple .site-name, .color-scheme-purple
+h3
+, #themeroller .color-scheme-purple h2, #themeroller .color-scheme-purple .site-name, #themeroller .color-scheme-purple
 h3 {
-  color: #f53a08;
-}
-
-/* line 167, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.primary-color {
-  color: #f47820;
+  color: #dd0031;
 }
 
 /* line 172, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.secondary-color {
-  color: #f53a08;
+.color-scheme-purple
+.primary-color
+, #themeroller .color-scheme-purple
+.primary-color {
+  color: #8b008d;
 }
 
 /* line 177, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+.color-scheme-purple
+.secondary-color
+, #themeroller .color-scheme-purple
+.secondary-color {
+  color: #dd0031;
+}
+
+/* line 182, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.slide-scroll .row-center
+, #themeroller .color-scheme-purple
 .slide-scroll .row-center {
-  background-color: #eb3808;
-  background: -webkit-linear-gradient(left, #d81916, #eb3808);
-  background: -o-linear-gradient(right, #d81916, #eb3808);
-  background: -moz-linear-gradient(right, #d81916, #eb3808);
-  background: linear-gradient(to right, #d81916, #eb3808);
+  background-color: #d3002f;
+  background: -webkit-linear-gradient(left, #941c33, #d3002f);
+  background: -o-linear-gradient(right, #941c33, #d3002f);
+  background: -moz-linear-gradient(right, #941c33, #d3002f);
+  background: linear-gradient(to right, #941c33, #d3002f);
   color: #fff;
 }
 
 /* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.slide-scroll .row-center a, .ymca-color-scheme-orange
-.slide-scroll .row-center h2, .ymca-color-scheme-orange
-.slide-scroll .row-center .site-name, .ymca-color-scheme-orange
-.slide-scroll .row-center h3, .ymca-color-scheme-orange
-.slide-scroll .row-center h4, .ymca-color-scheme-orange
+.color-scheme-purple
+.slide-scroll .row-center
+a, .color-scheme-purple
+.slide-scroll .row-center
+h2, .color-scheme-purple
+.slide-scroll .row-center
+.site-name, .color-scheme-purple
+.slide-scroll .row-center
+h3, .color-scheme-purple
+.slide-scroll .row-center
+h4, .color-scheme-purple
+.slide-scroll .row-center
+h5
+, #themeroller .color-scheme-purple
+.slide-scroll .row-center a, #themeroller .color-scheme-purple
+.slide-scroll .row-center h2, #themeroller .color-scheme-purple
+.slide-scroll .row-center .site-name, #themeroller .color-scheme-purple
+.slide-scroll .row-center h3, #themeroller .color-scheme-purple
+.slide-scroll .row-center h4, #themeroller .color-scheme-purple
 .slide-scroll .row-center
 h5 {
   color: #fff;
 }
 
-/* line 183, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.slide-scroll .row-center:after
+, #themeroller .color-scheme-purple
 .slide-scroll .row-center:after {
-  border-left-color: #eb3808;
+  border-left-color: #d3002f;
 }
 
-/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.slide-scroll .slide-hover
+, #themeroller .color-scheme-purple
 .slide-scroll .slide-hover {
-  background: -webkit-linear-gradient(left, #dd5f31, #f47e2a);
-  background: -o-linear-gradient(right, #dd5f31, #f47e2a);
-  background: -moz-linear-gradient(right, #dd5f31, #f47e2a);
-  background: linear-gradient(to right, #dd5f31, #f47e2a);
+  background: -webkit-linear-gradient(left, #641098, #950097);
+  background: -o-linear-gradient(right, #641098, #950097);
+  background: -moz-linear-gradient(right, #641098, #950097);
+  background: linear-gradient(to right, #641098, #950097);
   color: #fff;
 }
 
 /* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.slide-scroll .slide-hover a, .ymca-color-scheme-orange
-.slide-scroll .slide-hover h2, .ymca-color-scheme-orange
-.slide-scroll .slide-hover .site-name, .ymca-color-scheme-orange
-.slide-scroll .slide-hover h3, .ymca-color-scheme-orange
-.slide-scroll .slide-hover h4, .ymca-color-scheme-orange
+.color-scheme-purple
+.slide-scroll .slide-hover
+a, .color-scheme-purple
+.slide-scroll .slide-hover
+h2, .color-scheme-purple
+.slide-scroll .slide-hover
+.site-name, .color-scheme-purple
+.slide-scroll .slide-hover
+h3, .color-scheme-purple
+.slide-scroll .slide-hover
+h4, .color-scheme-purple
+.slide-scroll .slide-hover
+h5
+, #themeroller .color-scheme-purple
+.slide-scroll .slide-hover a, #themeroller .color-scheme-purple
+.slide-scroll .slide-hover h2, #themeroller .color-scheme-purple
+.slide-scroll .slide-hover .site-name, #themeroller .color-scheme-purple
+.slide-scroll .slide-hover h3, #themeroller .color-scheme-purple
+.slide-scroll .slide-hover h4, #themeroller .color-scheme-purple
 .slide-scroll .slide-hover
 h5 {
   color: #fff;
 }
 
-/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.slide-scroll .slide-hover:after
+, #themeroller .color-scheme-purple
 .slide-scroll .slide-hover:after {
-  border-left-color: #f47e2a;
+  border-left-color: #950097;
 }
 
-/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange .region-header, .ymca-color-scheme-orange
+/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple .region-header, .color-scheme-purple
+.bg-primary-gradient
+, #themeroller .color-scheme-purple .region-header, #themeroller .color-scheme-purple
 .bg-primary-gradient {
-  background: #f47820;
-  background: -webkit-linear-gradient(#f47820, #dc5828);
-  background: -o-linear-gradient(#f47820, #dc5828);
-  background: -moz-linear-gradient(#f47820, #dc5828);
-  background: linear-gradient(#f47820, #dc5828);
+  background: #b9008c;
+  background: -webkit-linear-gradient(#b9008c, #5e0f8f);
+  background: -o-linear-gradient(#b9008c, #5e0f8f);
+  background: -moz-linear-gradient(#b9008c, #5e0f8f);
+  background: linear-gradient(#b9008c, #5e0f8f);
   color: #fff;
 }
 
 /* line 91, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange .region-header a, .ymca-color-scheme-orange .region-header h2, .ymca-color-scheme-orange .region-header .site-name, .ymca-color-scheme-orange .region-header h3, .ymca-color-scheme-orange .region-header h4, .ymca-color-scheme-orange .region-header
+.color-scheme-purple .region-header a, .color-scheme-purple .region-header h2, .color-scheme-purple .region-header .site-name, .color-scheme-purple .region-header h3, .color-scheme-purple .region-header h4, .color-scheme-purple .region-header
 h5
-, .ymca-color-scheme-orange
-.bg-primary-gradient a, .ymca-color-scheme-orange
-.bg-primary-gradient h2, .ymca-color-scheme-orange
-.bg-primary-gradient .site-name, .ymca-color-scheme-orange
-.bg-primary-gradient h3, .ymca-color-scheme-orange
-.bg-primary-gradient h4, .ymca-color-scheme-orange
+, .color-scheme-purple
+.bg-primary-gradient
+a, .color-scheme-purple
+.bg-primary-gradient
+h2, .color-scheme-purple
+.bg-primary-gradient
+.site-name, .color-scheme-purple
+.bg-primary-gradient
+h3, .color-scheme-purple
+.bg-primary-gradient
+h4, .color-scheme-purple
+.bg-primary-gradient
+h5
+, #themeroller .color-scheme-purple .region-header a, #themeroller .color-scheme-purple .region-header h2, #themeroller .color-scheme-purple .region-header .site-name, #themeroller .color-scheme-purple .region-header h3, #themeroller .color-scheme-purple .region-header h4, #themeroller .color-scheme-purple .region-header
+h5
+, #themeroller .color-scheme-purple
+.bg-primary-gradient a, #themeroller .color-scheme-purple
+.bg-primary-gradient h2, #themeroller .color-scheme-purple
+.bg-primary-gradient .site-name, #themeroller .color-scheme-purple
+.bg-primary-gradient h3, #themeroller .color-scheme-purple
+.bg-primary-gradient h4, #themeroller .color-scheme-purple
 .bg-primary-gradient
 h5 {
   color: #fff;
 }
 
-/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 208, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.primary-bg-color
+, #themeroller .color-scheme-purple
 .primary-bg-color {
-  background-color: #f47820;
-  color: #fff;
-}
-
-/* line 209, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.well-knockout-info {
-  background-color: #f47820;
+  background-color: #8b008d;
   color: #fff;
 }
 
 /* line 214, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.well-knockout-info h1, .ymca-color-scheme-orange
-.well-knockout-info h2, .ymca-color-scheme-orange
-.well-knockout-info .site-name, .ymca-color-scheme-orange
-.well-knockout-info h3, .ymca-color-scheme-orange
+.color-scheme-purple
+.well-knockout-info
+, #themeroller .color-scheme-purple
+.well-knockout-info {
+  background-color: #8b008d;
+  color: #fff;
+}
+
+/* line 219, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.well-knockout-info
+h1, .color-scheme-purple
+.well-knockout-info
+h2, .color-scheme-purple
+.well-knockout-info
+.site-name, .color-scheme-purple
+.well-knockout-info
+h3, .color-scheme-purple
+.well-knockout-info
+a
+, #themeroller .color-scheme-purple
+.well-knockout-info h1, #themeroller .color-scheme-purple
+.well-knockout-info h2, #themeroller .color-scheme-purple
+.well-knockout-info .site-name, #themeroller .color-scheme-purple
+.well-knockout-info h3, #themeroller .color-scheme-purple
 .well-knockout-info
 a {
   color: #fff;
 }
 
-/* line 221, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.primary-bg-color-top
+, #themeroller .color-scheme-purple
 .primary-bg-color-top {
-  background-color: #f47820;
+  background-color: #8b008d;
   color: #fff;
 }
 
-/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.primary-bg-color-top h1, .ymca-color-scheme-orange
-.primary-bg-color-top h2, .ymca-color-scheme-orange
-.primary-bg-color-top .site-name, .ymca-color-scheme-orange
-.primary-bg-color-top h3, .ymca-color-scheme-orange
+/* line 231, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.primary-bg-color-top
+h1, .color-scheme-purple
+.primary-bg-color-top
+h2, .color-scheme-purple
+.primary-bg-color-top
+.site-name, .color-scheme-purple
+.primary-bg-color-top
+h3, .color-scheme-purple
+.primary-bg-color-top
+a
+, #themeroller .color-scheme-purple
+.primary-bg-color-top h1, #themeroller .color-scheme-purple
+.primary-bg-color-top h2, #themeroller .color-scheme-purple
+.primary-bg-color-top .site-name, #themeroller .color-scheme-purple
+.primary-bg-color-top h3, #themeroller .color-scheme-purple
 .primary-bg-color-top
 a {
   color: #fff;
 }
 
-/* line 232, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.primary-bg-color-bottom
+, #themeroller .color-scheme-purple
 .primary-bg-color-bottom {
-  background-color: #dc5828;
+  background-color: #5e0f8f;
   color: #fff;
 }
 
-/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.primary-bg-color-bottom h1, .ymca-color-scheme-orange
-.primary-bg-color-bottom h2, .ymca-color-scheme-orange
-.primary-bg-color-bottom .site-name, .ymca-color-scheme-orange
-.primary-bg-color-bottom h3, .ymca-color-scheme-orange
+/* line 242, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.primary-bg-color-bottom
+h1, .color-scheme-purple
+.primary-bg-color-bottom
+h2, .color-scheme-purple
+.primary-bg-color-bottom
+.site-name, .color-scheme-purple
+.primary-bg-color-bottom
+h3, .color-scheme-purple
+.primary-bg-color-bottom
+a
+, #themeroller .color-scheme-purple
+.primary-bg-color-bottom h1, #themeroller .color-scheme-purple
+.primary-bg-color-bottom h2, #themeroller .color-scheme-purple
+.primary-bg-color-bottom .site-name, #themeroller .color-scheme-purple
+.primary-bg-color-bottom h3, #themeroller .color-scheme-purple
 .primary-bg-color-bottom
 a {
   color: #fff;
 }
 
-/* line 244, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.secondary-bg-color
+, #themeroller .color-scheme-purple
 .secondary-bg-color {
-  background-color: #f53a08;
+  background-color: #dd0031;
   color: #fff;
 }
 
-/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.secondary-bg-color h1, .ymca-color-scheme-orange
-.secondary-bg-color h2, .ymca-color-scheme-orange
-.secondary-bg-color .site-name, .ymca-color-scheme-orange
-.secondary-bg-color h3, .ymca-color-scheme-orange
+/* line 254, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.secondary-bg-color
+h1, .color-scheme-purple
+.secondary-bg-color
+h2, .color-scheme-purple
+.secondary-bg-color
+.site-name, .color-scheme-purple
+.secondary-bg-color
+h3, .color-scheme-purple
+.secondary-bg-color
+a
+, #themeroller .color-scheme-purple
+.secondary-bg-color h1, #themeroller .color-scheme-purple
+.secondary-bg-color h2, #themeroller .color-scheme-purple
+.secondary-bg-color .site-name, #themeroller .color-scheme-purple
+.secondary-bg-color h3, #themeroller .color-scheme-purple
 .secondary-bg-color
 a {
   color: #fff;
 }
 
-/* line 255, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 260, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.secondary-bg-color-top
+, #themeroller .color-scheme-purple
 .secondary-bg-color-top {
-  background-color: #f53a08;
+  background-color: #dd0031;
   color: #fff;
 }
 
-/* line 261, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 266, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.secondary-bg-color-bottom
+, #themeroller .color-scheme-purple
 .secondary-bg-color-bottom {
-  background-color: #e11a17;
+  background-color: #9d1e36;
   color: #fff;
-}
-
-/* line 267, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.btn-primary {
-  color: #fff;
-  background-color: #f47c27;
-  box-shadow: #f9b788 0 1px 0 inset;
-  border: 1px solid #dd620b;
-}
-
-/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-orange
-.btn-primary:hover {
-  background-color: #dd620b;
-}
-
-/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-orange
-.btn-primary.disabled, .ymca-color-scheme-orange
-.btn-primary[disabled] {
-  background: #f69958;
 }
 
 /* line 272, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.btn-secondary {
+.color-scheme-purple
+.btn-primary
+, #themeroller .color-scheme-purple
+.btn-primary {
   color: #fff;
-  background-color: #f5400f;
-  box-shadow: #f98e71 0 1px 0 inset;
-  border: 1px solid #c93108;
+  background-color: #8e0890;
+  box-shadow: #ed0df1 0 1px 0 inset;
+  border: 1px solid #5e0560;
 }
 
 /* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-orange
-.btn-secondary:hover {
-  background-color: #c93108;
+.color-scheme-purple
+.btn-primary
+:hover
+, #themeroller .color-scheme-purple
+.btn-primary:hover {
+  background-color: #5e0560;
 }
 
 /* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-orange
-.btn-secondary.disabled, .ymca-color-scheme-orange
-.btn-secondary[disabled] {
-  background: #f76740;
+.color-scheme-purple
+.btn-primary
+.disabled, .color-scheme-purple
+.btn-primary
+[disabled]
+, #themeroller .color-scheme-purple
+.btn-primary.disabled, #themeroller .color-scheme-purple
+.btn-primary[disabled] {
+  background: #be0bc0;
 }
 
 /* line 277, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+.color-scheme-purple
+.btn-secondary
+, #themeroller .color-scheme-purple
+.btn-secondary {
+  color: #fff;
+  background-color: #de0837;
+  box-shadow: #f95378 0 1px 0 inset;
+  border: 1px solid #ad062b;
+}
+
+/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-purple
+.btn-secondary
+:hover
+, #themeroller .color-scheme-purple
+.btn-secondary:hover {
+  background-color: #ad062b;
+}
+
+/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-purple
+.btn-secondary
+.disabled, .color-scheme-purple
+.btn-secondary
+[disabled]
+, #themeroller .color-scheme-purple
+.btn-secondary.disabled, #themeroller .color-scheme-purple
+.btn-secondary[disabled] {
+  background: #f72251;
+}
+
+/* line 282, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.billboard-empty
+, #themeroller .color-scheme-purple
 .billboard-empty {
   background-color: #cccccc;
 }
 
-/* line 285, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 290, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.menu-ymca
+a
+, #themeroller .color-scheme-purple
 .menu-ymca
 a {
-  color: #f47820;
+  color: #8b008d;
 }
 
-/* line 291, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.menu-ymca li li a, .ymca-color-scheme-orange
+/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.menu-ymca
+li li a, .color-scheme-purple
+.menu-ymca
+li.sf-expanded a
+, #themeroller .color-scheme-purple
+.menu-ymca li li a, #themeroller .color-scheme-purple
 .menu-ymca
 li.sf-expanded a {
   color: #fff;
 }
 
-/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.menu-ymca li ul, .ymca-color-scheme-orange
+/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.menu-ymca
+li ul, .color-scheme-purple
+.menu-ymca
+li.sf-expanded
+, #themeroller .color-scheme-purple
+.menu-ymca li ul, #themeroller .color-scheme-purple
 .menu-ymca
 li.sf-expanded {
-  background: #f47820;
-}
-
-/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.menu-ymca
-li li {
-  border-top: 1px solid #ab5416;
+  background: #8b008d;
 }
 
 /* line 306, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+.color-scheme-purple
+.menu-ymca
+li li
+, #themeroller .color-scheme-purple
 .menu-ymca
 li li {
-  border-top: 1px solid #ab5416;
+  border-top: 1px solid #610063;
 }
 
 /* line 311, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.menu-ymca li li.sfHover, .ymca-color-scheme-orange
+.color-scheme-purple
 .menu-ymca
-li li:hover {
-  background: #e8721e;
+li li
+, #themeroller .color-scheme-purple
+.menu-ymca
+li li {
+  border-top: 1px solid #610063;
 }
 
 /* line 316, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+.color-scheme-purple
 .menu-ymca
-.sf-sub-indicator {
-  color: #f47820;
+li li.sfHover, .color-scheme-purple
+.menu-ymca
+li li:hover
+, #themeroller .color-scheme-purple
+.menu-ymca li li.sfHover, #themeroller .color-scheme-purple
+.menu-ymca
+li li:hover {
+  background: #840086;
 }
 
 /* line 321, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.menu-ymca li.sfHover, .ymca-color-scheme-orange
+.color-scheme-purple
 .menu-ymca
-li:hover {
-  background: #f47820;
+.sf-sub-indicator
+, #themeroller .color-scheme-purple
+.menu-ymca
+.sf-sub-indicator {
+  color: #8b008d;
 }
 
-/* line 325, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.menu-ymca li.sfHover a, .ymca-color-scheme-orange
+/* line 326, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.menu-ymca
+li.sfHover, .color-scheme-purple
+.menu-ymca
+li:hover
+, #themeroller .color-scheme-purple
+.menu-ymca li.sfHover, #themeroller .color-scheme-purple
+.menu-ymca
+li:hover {
+  background: #8b008d;
+}
+
+/* line 330, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.menu-ymca
+li.sfHover a, .color-scheme-purple
+.menu-ymca
+li.sfHover
+.sf-sub-indicator
+, .color-scheme-purple
+.menu-ymca
+li:hover
+a, .color-scheme-purple
+.menu-ymca
+li:hover
+.sf-sub-indicator
+, #themeroller .color-scheme-purple
+.menu-ymca li.sfHover a, #themeroller .color-scheme-purple
 .menu-ymca li.sfHover
 .sf-sub-indicator
-, .ymca-color-scheme-orange
+, #themeroller .color-scheme-purple
 .menu-ymca
-li:hover a, .ymca-color-scheme-orange
+li:hover a, #themeroller .color-scheme-purple
 .menu-ymca
 li:hover
 .sf-sub-indicator {
   color: #fff;
 }
 
-/* line 333, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.menu-ymca li.active-trail, .ymca-color-scheme-orange
-.menu-ymca li.active, .ymca-color-scheme-orange
-.menu-ymca li li.active-trail, .ymca-color-scheme-orange
+/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.menu-ymca
+li.active-trail, .color-scheme-purple
+.menu-ymca
+li.active, .color-scheme-purple
+.menu-ymca
+li li.active-trail, .color-scheme-purple
+.menu-ymca
+li li.active
+, #themeroller .color-scheme-purple
+.menu-ymca li.active-trail, #themeroller .color-scheme-purple
+.menu-ymca li.active, #themeroller .color-scheme-purple
+.menu-ymca li li.active-trail, #themeroller .color-scheme-purple
 .menu-ymca
 li li.active {
-  background: #fde4d2;
-  color: #f47820;
+  background: #e8cce8;
+  color: #8b008d;
 }
 
-/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.menu-ymca li.active-trail > a, .ymca-color-scheme-orange
+/* line 343, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.menu-ymca
+li.active-trail > a, .color-scheme-purple
+.menu-ymca
+li.active-trail
+.sf-sub-indicator
+, .color-scheme-purple
+.menu-ymca
+li.active > a, .color-scheme-purple
+.menu-ymca
+li.active
+.sf-sub-indicator
+, .color-scheme-purple
+.menu-ymca
+li li.active-trail > a, .color-scheme-purple
+.menu-ymca
+li li.active-trail
+.sf-sub-indicator
+, .color-scheme-purple
+.menu-ymca
+li li.active
+> a, .color-scheme-purple
+.menu-ymca
+li li.active
+.sf-sub-indicator
+, #themeroller .color-scheme-purple
+.menu-ymca li.active-trail > a, #themeroller .color-scheme-purple
 .menu-ymca li.active-trail
 .sf-sub-indicator
-, .ymca-color-scheme-orange
-.menu-ymca li.active > a, .ymca-color-scheme-orange
+, #themeroller .color-scheme-purple
+.menu-ymca li.active > a, #themeroller .color-scheme-purple
 .menu-ymca li.active
 .sf-sub-indicator
-, .ymca-color-scheme-orange
-.menu-ymca li li.active-trail > a, .ymca-color-scheme-orange
+, #themeroller .color-scheme-purple
+.menu-ymca li li.active-trail > a, #themeroller .color-scheme-purple
 .menu-ymca li li.active-trail
 .sf-sub-indicator
-, .ymca-color-scheme-orange
+, #themeroller .color-scheme-purple
 .menu-ymca
-li li.active > a, .ymca-color-scheme-orange
+li li.active > a, #themeroller .color-scheme-purple
 .menu-ymca
 li li.active
 .sf-sub-indicator {
-  color: #f47820;
+  color: #8b008d;
 }
 
 @media (min-width: 768px) {
-  /* line 347, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-orange
-.menu-ymca .sf-menu > li.first, .ymca-color-scheme-orange
+  /* line 352, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-purple
+.menu-ymca
+.sf-menu > li.first, .color-scheme-purple
+.menu-ymca
+.sf-menu > li.firstandlast
+, #themeroller .color-scheme-purple
+.menu-ymca .sf-menu > li.first, #themeroller .color-scheme-purple
 .menu-ymca
 .sf-menu > li.firstandlast {
-    background-color: #f47820;
+    background-color: #8b008d;
   }
-  /* line 351, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-orange
+  /* line 356, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-purple
+.menu-ymca
+.sf-menu > li.first > a
+, .color-scheme-purple
+.menu-ymca
+.sf-menu > li.firstandlast
+> a
+, #themeroller .color-scheme-purple
 .menu-ymca .sf-menu > li.first > a
-, .ymca-color-scheme-orange
+, #themeroller .color-scheme-purple
 .menu-ymca
 .sf-menu > li.firstandlast > a {
     color: #fff;
   }
 }
 
-/* line 365, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.ymca-secondary-menu .pane-content
+.menu
+, #themeroller .color-scheme-purple
 .ymca-secondary-menu .pane-content
 .menu {
-  background: #f47820;
-}
-
-/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.ymca-secondary-menu .pane-content
-li {
-  border-top: 1px solid #f7a163;
+  background: #8b008d;
 }
 
 /* line 375, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+.color-scheme-purple
+.ymca-secondary-menu .pane-content
+li
+, #themeroller .color-scheme-purple
+.ymca-secondary-menu .pane-content
+li {
+  border-top: 1px solid #ae4daf;
+}
+
+/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.ymca-secondary-menu .pane-content
+li.first
+, #themeroller .color-scheme-purple
 .ymca-secondary-menu .pane-content
 li.first {
   border-top: none;
 }
 
-/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.ymca-secondary-menu .pane-content li.active-trail, .ymca-color-scheme-orange
-.ymca-secondary-menu .pane-content li.active-trail ul, .ymca-color-scheme-orange
+/* line 385, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.ymca-secondary-menu .pane-content
+li.active-trail, .color-scheme-purple
+.ymca-secondary-menu .pane-content
+li.active-trail ul, .color-scheme-purple
+.ymca-secondary-menu .pane-content
+li.active
+, #themeroller .color-scheme-purple
+.ymca-secondary-menu .pane-content li.active-trail, #themeroller .color-scheme-purple
+.ymca-secondary-menu .pane-content li.active-trail ul, #themeroller .color-scheme-purple
 .ymca-secondary-menu .pane-content
 li.active {
-  background: #fef2e9;
+  background: #f3e6f4;
 }
 
-/* line 384, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 389, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.ymca-secondary-menu .pane-content
+li.active-trail
+li
+, .color-scheme-purple
+.ymca-secondary-menu .pane-content
+li.active-trail ul
+li
+, .color-scheme-purple
+.ymca-secondary-menu .pane-content
+li.active
+li
+, #themeroller .color-scheme-purple
 .ymca-secondary-menu .pane-content li.active-trail
 li
-, .ymca-color-scheme-orange
+, #themeroller .color-scheme-purple
 .ymca-secondary-menu .pane-content li.active-trail ul
 li
-, .ymca-color-scheme-orange
+, #themeroller .color-scheme-purple
 .ymca-secondary-menu .pane-content
 li.active
 li {
   border: none;
 }
 
-/* line 391, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
-.ymca-secondary-menu .pane-content .active-trail a, .ymca-color-scheme-orange
+/* line 396, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.ymca-secondary-menu .pane-content
+.active-trail a, .color-scheme-purple
+.ymca-secondary-menu .pane-content
+li.active a
+, #themeroller .color-scheme-purple
+.ymca-secondary-menu .pane-content .active-trail a, #themeroller .color-scheme-purple
 .ymca-secondary-menu .pane-content
 li.active a {
-  color: #f47820;
+  color: #8b008d;
 }
 
-/* line 398, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 403, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.site-selector-homepage .group-active
+, #themeroller .color-scheme-purple
 .site-selector-homepage .group-active {
-  border-top: 2px solid #f8ae79;
+  border-top: 2px solid #b966bb;
 }
 
-/* line 405, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 410, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.nav-search
+input[type="text"], #themeroller .color-scheme-purple
 .nav-search input[type="text"] {
-  color: #fde4d2;
+  color: #e8cce8;
 }
 
-/* line 407, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 412, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.nav-search
+.search-fill
+, #themeroller .color-scheme-purple
 .nav-search
 .search-fill {
-  background-color: #f6934d;
-  border: solid 1px #f8ae79;
+  background-color: #a233a4;
+  border: solid 1px #b966bb;
 }
 
-/* line 415, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-orange
+/* line 420, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-purple
+.breadcrumbs
+, #themeroller .color-scheme-purple
 .breadcrumbs {
-  background-color: #e11a17;
+  background-color: #9d1e36;
 }
 
 @media (min-width: 768px) {
-  /* line 423, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-orange
-th {
-    background-color: #d9edf8;
-  }
   /* line 428, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-orange tr.even, .ymca-color-scheme-orange
-tr.odd {
-    border-bottom: 1px solid #bfe1f3;
+  .color-scheme-purple
+th
+, #themeroller .color-scheme-purple
+th {
+    background-color: #e6f2fc;
   }
   /* line 433, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-orange
-tr.even {
-    background-color: #f2f9fd;
+  .color-scheme-purple tr.even, .color-scheme-purple
+tr.odd
+, #themeroller .color-scheme-purple tr.even, #themeroller .color-scheme-purple
+tr.odd {
+    border-bottom: 1px solid #d5eafa;
   }
   /* line 438, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-orange td.active {
-    background-color: #f2f9fd;
+  .color-scheme-purple
+tr.even
+, #themeroller .color-scheme-purple
+tr.even {
+    background-color: #f7fbfe;
   }
-  /* line 442, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-orange tr.even td.active {
-    background-color: #e6f3fa;
+  /* line 443, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-purple td.active, #themeroller .color-scheme-purple td.active {
+    background-color: #f7fbfe;
   }
-}
-
-/* line 150, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple a, .ymca-color-scheme-purple
-h1 {
-  color: #92278f;
+  /* line 447, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-purple tr.even td.active, #themeroller .color-scheme-purple tr.even td.active {
+    background-color: #eef6fd;
+  }
 }
 
 /* line 155, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+.color-scheme-red a, .color-scheme-red
+h1
+, #themeroller .color-scheme-red a, #themeroller .color-scheme-red
+h1 {
+  color: #dd0031;
+}
+
+/* line 160, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+a:hover
+, #themeroller .color-scheme-red
 a:hover {
-  color: #00a8e9;
+  color: #e57633;
 }
 
-/* line 161, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple h2, .ymca-color-scheme-purple .site-name, .ymca-color-scheme-purple
+/* line 166, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red h2, .color-scheme-red .site-name, .color-scheme-red
+h3
+, #themeroller .color-scheme-red h2, #themeroller .color-scheme-red .site-name, #themeroller .color-scheme-red
 h3 {
-  color: #00a8e9;
-}
-
-/* line 167, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.primary-color {
-  color: #92278f;
+  color: #e57633;
 }
 
 /* line 172, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.secondary-color {
-  color: #00a8e9;
+.color-scheme-red
+.primary-color
+, #themeroller .color-scheme-red
+.primary-color {
+  color: #dd0031;
 }
 
 /* line 177, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+.color-scheme-red
+.secondary-color
+, #themeroller .color-scheme-red
+.secondary-color {
+  color: #e57633;
+}
+
+/* line 182, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.slide-scroll .row-center
+, #themeroller .color-scheme-red
 .slide-scroll .row-center {
-  background-color: #00a1df;
-  background: -webkit-linear-gradient(left, #0189cc, #00a1df);
-  background: -o-linear-gradient(right, #0189cc, #00a1df);
-  background: -moz-linear-gradient(right, #0189cc, #00a1df);
-  background: linear-gradient(to right, #0189cc, #00a1df);
+  background-color: #e4702a;
+  background: -webkit-linear-gradient(left, #c94f2f, #e4702a);
+  background: -o-linear-gradient(right, #c94f2f, #e4702a);
+  background: -moz-linear-gradient(right, #c94f2f, #e4702a);
+  background: linear-gradient(to right, #c94f2f, #e4702a);
   color: #fff;
 }
 
 /* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.slide-scroll .row-center a, .ymca-color-scheme-purple
-.slide-scroll .row-center h2, .ymca-color-scheme-purple
-.slide-scroll .row-center .site-name, .ymca-color-scheme-purple
-.slide-scroll .row-center h3, .ymca-color-scheme-purple
-.slide-scroll .row-center h4, .ymca-color-scheme-purple
+.color-scheme-red
+.slide-scroll .row-center
+a, .color-scheme-red
+.slide-scroll .row-center
+h2, .color-scheme-red
+.slide-scroll .row-center
+.site-name, .color-scheme-red
+.slide-scroll .row-center
+h3, .color-scheme-red
+.slide-scroll .row-center
+h4, .color-scheme-red
+.slide-scroll .row-center
+h5
+, #themeroller .color-scheme-red
+.slide-scroll .row-center a, #themeroller .color-scheme-red
+.slide-scroll .row-center h2, #themeroller .color-scheme-red
+.slide-scroll .row-center .site-name, #themeroller .color-scheme-red
+.slide-scroll .row-center h3, #themeroller .color-scheme-red
+.slide-scroll .row-center h4, #themeroller .color-scheme-red
 .slide-scroll .row-center
 h5 {
   color: #fff;
 }
 
-/* line 183, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.slide-scroll .row-center:after
+, #themeroller .color-scheme-red
 .slide-scroll .row-center:after {
-  border-left-color: #00a1df;
+  border-left-color: #e4702a;
 }
 
-/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.slide-scroll .slide-hover
+, #themeroller .color-scheme-red
 .slide-scroll .slide-hover {
-  background: -webkit-linear-gradient(left, #613099, #9a2997);
-  background: -o-linear-gradient(right, #613099, #9a2997);
-  background: -moz-linear-gradient(right, #613099, #9a2997);
-  background: linear-gradient(to right, #613099, #9a2997);
+  background: -webkit-linear-gradient(left, #a62039, #e70033);
+  background: -o-linear-gradient(right, #a62039, #e70033);
+  background: -moz-linear-gradient(right, #a62039, #e70033);
+  background: linear-gradient(to right, #a62039, #e70033);
   color: #fff;
 }
 
 /* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.slide-scroll .slide-hover a, .ymca-color-scheme-purple
-.slide-scroll .slide-hover h2, .ymca-color-scheme-purple
-.slide-scroll .slide-hover .site-name, .ymca-color-scheme-purple
-.slide-scroll .slide-hover h3, .ymca-color-scheme-purple
-.slide-scroll .slide-hover h4, .ymca-color-scheme-purple
+.color-scheme-red
+.slide-scroll .slide-hover
+a, .color-scheme-red
+.slide-scroll .slide-hover
+h2, .color-scheme-red
+.slide-scroll .slide-hover
+.site-name, .color-scheme-red
+.slide-scroll .slide-hover
+h3, .color-scheme-red
+.slide-scroll .slide-hover
+h4, .color-scheme-red
+.slide-scroll .slide-hover
+h5
+, #themeroller .color-scheme-red
+.slide-scroll .slide-hover a, #themeroller .color-scheme-red
+.slide-scroll .slide-hover h2, #themeroller .color-scheme-red
+.slide-scroll .slide-hover .site-name, #themeroller .color-scheme-red
+.slide-scroll .slide-hover h3, #themeroller .color-scheme-red
+.slide-scroll .slide-hover h4, #themeroller .color-scheme-red
 .slide-scroll .slide-hover
 h5 {
   color: #fff;
 }
 
-/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.slide-scroll .slide-hover:after
+, #themeroller .color-scheme-red
 .slide-scroll .slide-hover:after {
-  border-left-color: #9a2997;
+  border-left-color: #e70033;
 }
 
-/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple .region-header, .ymca-color-scheme-purple
+/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red .region-header, .color-scheme-red
+.bg-primary-gradient
+, #themeroller .color-scheme-red .region-header, #themeroller .color-scheme-red
 .bg-primary-gradient {
-  background: #92278f;
-  background: -webkit-linear-gradient(#92278f, #5c2e91);
-  background: -o-linear-gradient(#92278f, #5c2e91);
-  background: -moz-linear-gradient(#92278f, #5c2e91);
-  background: linear-gradient(#92278f, #5c2e91);
+  background: #55a9ec;
+  background: -webkit-linear-gradient(#55a9ec, #3658ab);
+  background: -o-linear-gradient(#55a9ec, #3658ab);
+  background: -moz-linear-gradient(#55a9ec, #3658ab);
+  background: linear-gradient(#55a9ec, #3658ab);
   color: #fff;
 }
 
 /* line 91, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple .region-header a, .ymca-color-scheme-purple .region-header h2, .ymca-color-scheme-purple .region-header .site-name, .ymca-color-scheme-purple .region-header h3, .ymca-color-scheme-purple .region-header h4, .ymca-color-scheme-purple .region-header
+.color-scheme-red .region-header a, .color-scheme-red .region-header h2, .color-scheme-red .region-header .site-name, .color-scheme-red .region-header h3, .color-scheme-red .region-header h4, .color-scheme-red .region-header
 h5
-, .ymca-color-scheme-purple
-.bg-primary-gradient a, .ymca-color-scheme-purple
-.bg-primary-gradient h2, .ymca-color-scheme-purple
-.bg-primary-gradient .site-name, .ymca-color-scheme-purple
-.bg-primary-gradient h3, .ymca-color-scheme-purple
-.bg-primary-gradient h4, .ymca-color-scheme-purple
+, .color-scheme-red
+.bg-primary-gradient
+a, .color-scheme-red
+.bg-primary-gradient
+h2, .color-scheme-red
+.bg-primary-gradient
+.site-name, .color-scheme-red
+.bg-primary-gradient
+h3, .color-scheme-red
+.bg-primary-gradient
+h4, .color-scheme-red
+.bg-primary-gradient
+h5
+, #themeroller .color-scheme-red .region-header a, #themeroller .color-scheme-red .region-header h2, #themeroller .color-scheme-red .region-header .site-name, #themeroller .color-scheme-red .region-header h3, #themeroller .color-scheme-red .region-header h4, #themeroller .color-scheme-red .region-header
+h5
+, #themeroller .color-scheme-red
+.bg-primary-gradient a, #themeroller .color-scheme-red
+.bg-primary-gradient h2, #themeroller .color-scheme-red
+.bg-primary-gradient .site-name, #themeroller .color-scheme-red
+.bg-primary-gradient h3, #themeroller .color-scheme-red
+.bg-primary-gradient h4, #themeroller .color-scheme-red
 .bg-primary-gradient
 h5 {
   color: #fff;
 }
 
-/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 208, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.primary-bg-color
+, #themeroller .color-scheme-red
 .primary-bg-color {
-  background-color: #92278f;
-  color: #fff;
-}
-
-/* line 209, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.well-knockout-info {
-  background-color: #92278f;
+  background-color: #dd0031;
   color: #fff;
 }
 
 /* line 214, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.well-knockout-info h1, .ymca-color-scheme-purple
-.well-knockout-info h2, .ymca-color-scheme-purple
-.well-knockout-info .site-name, .ymca-color-scheme-purple
-.well-knockout-info h3, .ymca-color-scheme-purple
+.color-scheme-red
+.well-knockout-info
+, #themeroller .color-scheme-red
+.well-knockout-info {
+  background-color: #dd0031;
+  color: #fff;
+}
+
+/* line 219, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.well-knockout-info
+h1, .color-scheme-red
+.well-knockout-info
+h2, .color-scheme-red
+.well-knockout-info
+.site-name, .color-scheme-red
+.well-knockout-info
+h3, .color-scheme-red
+.well-knockout-info
+a
+, #themeroller .color-scheme-red
+.well-knockout-info h1, #themeroller .color-scheme-red
+.well-knockout-info h2, #themeroller .color-scheme-red
+.well-knockout-info .site-name, #themeroller .color-scheme-red
+.well-knockout-info h3, #themeroller .color-scheme-red
 .well-knockout-info
 a {
   color: #fff;
 }
 
-/* line 221, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.primary-bg-color-top
+, #themeroller .color-scheme-red
 .primary-bg-color-top {
-  background-color: #92278f;
+  background-color: #dd0031;
   color: #fff;
 }
 
-/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.primary-bg-color-top h1, .ymca-color-scheme-purple
-.primary-bg-color-top h2, .ymca-color-scheme-purple
-.primary-bg-color-top .site-name, .ymca-color-scheme-purple
-.primary-bg-color-top h3, .ymca-color-scheme-purple
+/* line 231, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.primary-bg-color-top
+h1, .color-scheme-red
+.primary-bg-color-top
+h2, .color-scheme-red
+.primary-bg-color-top
+.site-name, .color-scheme-red
+.primary-bg-color-top
+h3, .color-scheme-red
+.primary-bg-color-top
+a
+, #themeroller .color-scheme-red
+.primary-bg-color-top h1, #themeroller .color-scheme-red
+.primary-bg-color-top h2, #themeroller .color-scheme-red
+.primary-bg-color-top .site-name, #themeroller .color-scheme-red
+.primary-bg-color-top h3, #themeroller .color-scheme-red
 .primary-bg-color-top
 a {
   color: #fff;
 }
 
-/* line 232, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.primary-bg-color-bottom
+, #themeroller .color-scheme-red
 .primary-bg-color-bottom {
-  background-color: #5c2e91;
+  background-color: #9d1e36;
   color: #fff;
 }
 
-/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.primary-bg-color-bottom h1, .ymca-color-scheme-purple
-.primary-bg-color-bottom h2, .ymca-color-scheme-purple
-.primary-bg-color-bottom .site-name, .ymca-color-scheme-purple
-.primary-bg-color-bottom h3, .ymca-color-scheme-purple
+/* line 242, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.primary-bg-color-bottom
+h1, .color-scheme-red
+.primary-bg-color-bottom
+h2, .color-scheme-red
+.primary-bg-color-bottom
+.site-name, .color-scheme-red
+.primary-bg-color-bottom
+h3, .color-scheme-red
+.primary-bg-color-bottom
+a
+, #themeroller .color-scheme-red
+.primary-bg-color-bottom h1, #themeroller .color-scheme-red
+.primary-bg-color-bottom h2, #themeroller .color-scheme-red
+.primary-bg-color-bottom .site-name, #themeroller .color-scheme-red
+.primary-bg-color-bottom h3, #themeroller .color-scheme-red
 .primary-bg-color-bottom
 a {
   color: #fff;
 }
 
-/* line 244, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.secondary-bg-color
+, #themeroller .color-scheme-red
 .secondary-bg-color {
-  background-color: #00a8e9;
+  background-color: #e57633;
   color: #fff;
 }
 
-/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.secondary-bg-color h1, .ymca-color-scheme-purple
-.secondary-bg-color h2, .ymca-color-scheme-purple
-.secondary-bg-color .site-name, .ymca-color-scheme-purple
-.secondary-bg-color h3, .ymca-color-scheme-purple
+/* line 254, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.secondary-bg-color
+h1, .color-scheme-red
+.secondary-bg-color
+h2, .color-scheme-red
+.secondary-bg-color
+.site-name, .color-scheme-red
+.secondary-bg-color
+h3, .color-scheme-red
+.secondary-bg-color
+a
+, #themeroller .color-scheme-red
+.secondary-bg-color h1, #themeroller .color-scheme-red
+.secondary-bg-color h2, #themeroller .color-scheme-red
+.secondary-bg-color .site-name, #themeroller .color-scheme-red
+.secondary-bg-color h3, #themeroller .color-scheme-red
 .secondary-bg-color
 a {
   color: #fff;
 }
 
-/* line 255, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 260, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.secondary-bg-color-top
+, #themeroller .color-scheme-red
 .secondary-bg-color-top {
-  background-color: #00a8e9;
+  background-color: #e57633;
   color: #fff;
 }
 
-/* line 261, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 266, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.secondary-bg-color-bottom
+, #themeroller .color-scheme-red
 .secondary-bg-color-bottom {
-  background-color: #0190d6;
+  background-color: #cf5333;
   color: #fff;
-}
-
-/* line 267, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.btn-primary {
-  color: #fff;
-  background-color: #952d92;
-  box-shadow: #cd5bca 0 1px 0 inset;
-  border: 1px solid #6e216c;
-}
-
-/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-purple
-.btn-primary:hover {
-  background-color: #6e216c;
-}
-
-/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-purple
-.btn-primary.disabled, .ymca-color-scheme-purple
-.btn-primary[disabled] {
-  background: #bc39b8;
 }
 
 /* line 272, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.btn-secondary {
+.color-scheme-red
+.btn-primary
+, #themeroller .color-scheme-red
+.btn-primary {
   color: #fff;
-  background-color: #08abea;
-  box-shadow: #5ecefa 0 1px 0 inset;
-  border: 1px solid #0687b9;
+  background-color: #de0837;
+  box-shadow: #f95378 0 1px 0 inset;
+  border: 1px solid #ad062b;
 }
 
 /* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-purple
-.btn-secondary:hover {
-  background-color: #0687b9;
+.color-scheme-red
+.btn-primary
+:hover
+, #themeroller .color-scheme-red
+.btn-primary:hover {
+  background-color: #ad062b;
 }
 
 /* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-purple
-.btn-secondary.disabled, .ymca-color-scheme-purple
-.btn-secondary[disabled] {
-  background: #2dbff8;
+.color-scheme-red
+.btn-primary
+.disabled, .color-scheme-red
+.btn-primary
+[disabled]
+, #themeroller .color-scheme-red
+.btn-primary.disabled, #themeroller .color-scheme-red
+.btn-primary[disabled] {
+  background: #f72251;
 }
 
 /* line 277, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+.color-scheme-red
+.btn-secondary
+, #themeroller .color-scheme-red
+.btn-secondary {
+  color: #fff;
+  background-color: #e67a39;
+  box-shadow: #f1b794 0 1px 0 inset;
+  border: 1px solid #d25f1a;
+}
+
+/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-red
+.btn-secondary
+:hover
+, #themeroller .color-scheme-red
+.btn-secondary:hover {
+  background-color: #d25f1a;
+}
+
+/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-red
+.btn-secondary
+.disabled, .color-scheme-red
+.btn-secondary
+[disabled]
+, #themeroller .color-scheme-red
+.btn-secondary.disabled, #themeroller .color-scheme-red
+.btn-secondary[disabled] {
+  background: #ec9866;
+}
+
+/* line 282, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.billboard-empty
+, #themeroller .color-scheme-red
 .billboard-empty {
   background-color: #cccccc;
 }
 
-/* line 285, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 290, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.menu-ymca
+a
+, #themeroller .color-scheme-red
 .menu-ymca
 a {
-  color: #92278f;
+  color: #dd0031;
 }
 
-/* line 291, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.menu-ymca li li a, .ymca-color-scheme-purple
+/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.menu-ymca
+li li a, .color-scheme-red
+.menu-ymca
+li.sf-expanded a
+, #themeroller .color-scheme-red
+.menu-ymca li li a, #themeroller .color-scheme-red
 .menu-ymca
 li.sf-expanded a {
   color: #fff;
 }
 
-/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.menu-ymca li ul, .ymca-color-scheme-purple
+/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.menu-ymca
+li ul, .color-scheme-red
+.menu-ymca
+li.sf-expanded
+, #themeroller .color-scheme-red
+.menu-ymca li ul, #themeroller .color-scheme-red
 .menu-ymca
 li.sf-expanded {
-  background: #92278f;
-}
-
-/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.menu-ymca
-li li {
-  border-top: 1px solid #661b64;
+  background: #dd0031;
 }
 
 /* line 306, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+.color-scheme-red
+.menu-ymca
+li li
+, #themeroller .color-scheme-red
 .menu-ymca
 li li {
-  border-top: 1px solid #661b64;
+  border-top: 1px solid #9b0022;
 }
 
 /* line 311, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.menu-ymca li li.sfHover, .ymca-color-scheme-purple
+.color-scheme-red
 .menu-ymca
-li li:hover {
-  background: #8b2588;
+li li
+, #themeroller .color-scheme-red
+.menu-ymca
+li li {
+  border-top: 1px solid #9b0022;
 }
 
 /* line 316, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+.color-scheme-red
 .menu-ymca
-.sf-sub-indicator {
-  color: #92278f;
+li li.sfHover, .color-scheme-red
+.menu-ymca
+li li:hover
+, #themeroller .color-scheme-red
+.menu-ymca li li.sfHover, #themeroller .color-scheme-red
+.menu-ymca
+li li:hover {
+  background: #d2002f;
 }
 
 /* line 321, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.menu-ymca li.sfHover, .ymca-color-scheme-purple
+.color-scheme-red
 .menu-ymca
-li:hover {
-  background: #92278f;
+.sf-sub-indicator
+, #themeroller .color-scheme-red
+.menu-ymca
+.sf-sub-indicator {
+  color: #dd0031;
 }
 
-/* line 325, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.menu-ymca li.sfHover a, .ymca-color-scheme-purple
+/* line 326, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.menu-ymca
+li.sfHover, .color-scheme-red
+.menu-ymca
+li:hover
+, #themeroller .color-scheme-red
+.menu-ymca li.sfHover, #themeroller .color-scheme-red
+.menu-ymca
+li:hover {
+  background: #dd0031;
+}
+
+/* line 330, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.menu-ymca
+li.sfHover a, .color-scheme-red
+.menu-ymca
+li.sfHover
+.sf-sub-indicator
+, .color-scheme-red
+.menu-ymca
+li:hover
+a, .color-scheme-red
+.menu-ymca
+li:hover
+.sf-sub-indicator
+, #themeroller .color-scheme-red
+.menu-ymca li.sfHover a, #themeroller .color-scheme-red
 .menu-ymca li.sfHover
 .sf-sub-indicator
-, .ymca-color-scheme-purple
+, #themeroller .color-scheme-red
 .menu-ymca
-li:hover a, .ymca-color-scheme-purple
+li:hover a, #themeroller .color-scheme-red
 .menu-ymca
 li:hover
 .sf-sub-indicator {
   color: #fff;
 }
 
-/* line 333, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.menu-ymca li.active-trail, .ymca-color-scheme-purple
-.menu-ymca li.active, .ymca-color-scheme-purple
-.menu-ymca li li.active-trail, .ymca-color-scheme-purple
+/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.menu-ymca
+li.active-trail, .color-scheme-red
+.menu-ymca
+li.active, .color-scheme-red
+.menu-ymca
+li li.active-trail, .color-scheme-red
+.menu-ymca
+li li.active
+, #themeroller .color-scheme-red
+.menu-ymca li.active-trail, #themeroller .color-scheme-red
+.menu-ymca li.active, #themeroller .color-scheme-red
+.menu-ymca li li.active-trail, #themeroller .color-scheme-red
 .menu-ymca
 li li.active {
-  background: #e9d4e9;
-  color: #92278f;
+  background: #f8ccd6;
+  color: #dd0031;
 }
 
-/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.menu-ymca li.active-trail > a, .ymca-color-scheme-purple
+/* line 343, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.menu-ymca
+li.active-trail > a, .color-scheme-red
+.menu-ymca
+li.active-trail
+.sf-sub-indicator
+, .color-scheme-red
+.menu-ymca
+li.active > a, .color-scheme-red
+.menu-ymca
+li.active
+.sf-sub-indicator
+, .color-scheme-red
+.menu-ymca
+li li.active-trail > a, .color-scheme-red
+.menu-ymca
+li li.active-trail
+.sf-sub-indicator
+, .color-scheme-red
+.menu-ymca
+li li.active
+> a, .color-scheme-red
+.menu-ymca
+li li.active
+.sf-sub-indicator
+, #themeroller .color-scheme-red
+.menu-ymca li.active-trail > a, #themeroller .color-scheme-red
 .menu-ymca li.active-trail
 .sf-sub-indicator
-, .ymca-color-scheme-purple
-.menu-ymca li.active > a, .ymca-color-scheme-purple
+, #themeroller .color-scheme-red
+.menu-ymca li.active > a, #themeroller .color-scheme-red
 .menu-ymca li.active
 .sf-sub-indicator
-, .ymca-color-scheme-purple
-.menu-ymca li li.active-trail > a, .ymca-color-scheme-purple
+, #themeroller .color-scheme-red
+.menu-ymca li li.active-trail > a, #themeroller .color-scheme-red
 .menu-ymca li li.active-trail
 .sf-sub-indicator
-, .ymca-color-scheme-purple
+, #themeroller .color-scheme-red
 .menu-ymca
-li li.active > a, .ymca-color-scheme-purple
+li li.active > a, #themeroller .color-scheme-red
 .menu-ymca
 li li.active
 .sf-sub-indicator {
-  color: #92278f;
+  color: #dd0031;
 }
 
 @media (min-width: 768px) {
-  /* line 347, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-purple
-.menu-ymca .sf-menu > li.first, .ymca-color-scheme-purple
+  /* line 352, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-red
+.menu-ymca
+.sf-menu > li.first, .color-scheme-red
+.menu-ymca
+.sf-menu > li.firstandlast
+, #themeroller .color-scheme-red
+.menu-ymca .sf-menu > li.first, #themeroller .color-scheme-red
 .menu-ymca
 .sf-menu > li.firstandlast {
-    background-color: #92278f;
+    background-color: #dd0031;
   }
-  /* line 351, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-purple
+  /* line 356, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-red
+.menu-ymca
+.sf-menu > li.first > a
+, .color-scheme-red
+.menu-ymca
+.sf-menu > li.firstandlast
+> a
+, #themeroller .color-scheme-red
 .menu-ymca .sf-menu > li.first > a
-, .ymca-color-scheme-purple
+, #themeroller .color-scheme-red
 .menu-ymca
 .sf-menu > li.firstandlast > a {
     color: #fff;
   }
 }
 
-/* line 365, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.ymca-secondary-menu .pane-content
+.menu
+, #themeroller .color-scheme-red
 .ymca-secondary-menu .pane-content
 .menu {
-  background: #92278f;
-}
-
-/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.ymca-secondary-menu .pane-content
-li {
-  border-top: 1px solid #b368b1;
+  background: #dd0031;
 }
 
 /* line 375, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+.color-scheme-red
+.ymca-secondary-menu .pane-content
+li
+, #themeroller .color-scheme-red
+.ymca-secondary-menu .pane-content
+li {
+  border-top: 1px solid #e74d6f;
+}
+
+/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.ymca-secondary-menu .pane-content
+li.first
+, #themeroller .color-scheme-red
 .ymca-secondary-menu .pane-content
 li.first {
   border-top: none;
 }
 
-/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.ymca-secondary-menu .pane-content li.active-trail, .ymca-color-scheme-purple
-.ymca-secondary-menu .pane-content li.active-trail ul, .ymca-color-scheme-purple
+/* line 385, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.ymca-secondary-menu .pane-content
+li.active-trail, .color-scheme-red
+.ymca-secondary-menu .pane-content
+li.active-trail ul, .color-scheme-red
+.ymca-secondary-menu .pane-content
+li.active
+, #themeroller .color-scheme-red
+.ymca-secondary-menu .pane-content li.active-trail, #themeroller .color-scheme-red
+.ymca-secondary-menu .pane-content li.active-trail ul, #themeroller .color-scheme-red
 .ymca-secondary-menu .pane-content
 li.active {
-  background: #f4e9f4;
+  background: #fce6ea;
 }
 
-/* line 384, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 389, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.ymca-secondary-menu .pane-content
+li.active-trail
+li
+, .color-scheme-red
+.ymca-secondary-menu .pane-content
+li.active-trail ul
+li
+, .color-scheme-red
+.ymca-secondary-menu .pane-content
+li.active
+li
+, #themeroller .color-scheme-red
 .ymca-secondary-menu .pane-content li.active-trail
 li
-, .ymca-color-scheme-purple
+, #themeroller .color-scheme-red
 .ymca-secondary-menu .pane-content li.active-trail ul
 li
-, .ymca-color-scheme-purple
+, #themeroller .color-scheme-red
 .ymca-secondary-menu .pane-content
 li.active
 li {
   border: none;
 }
 
-/* line 391, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
-.ymca-secondary-menu .pane-content .active-trail a, .ymca-color-scheme-purple
+/* line 396, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.ymca-secondary-menu .pane-content
+.active-trail a, .color-scheme-red
+.ymca-secondary-menu .pane-content
+li.active a
+, #themeroller .color-scheme-red
+.ymca-secondary-menu .pane-content .active-trail a, #themeroller .color-scheme-red
 .ymca-secondary-menu .pane-content
 li.active a {
-  color: #92278f;
+  color: #dd0031;
 }
 
-/* line 398, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 403, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.site-selector-homepage .group-active
+, #themeroller .color-scheme-red
 .site-selector-homepage .group-active {
-  border-top: 2px solid #be7dbc;
+  border-top: 2px solid #eb6683;
 }
 
-/* line 405, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 410, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.nav-search
+input[type="text"], #themeroller .color-scheme-red
 .nav-search input[type="text"] {
-  color: #e9d4e9;
+  color: #f8ccd6;
 }
 
-/* line 407, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 412, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.nav-search
+.search-fill
+, #themeroller .color-scheme-red
 .nav-search
 .search-fill {
-  background-color: #a852a5;
-  border: solid 1px #be7dbc;
+  background-color: #e4335a;
+  border: solid 1px #eb6683;
 }
 
-/* line 415, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-purple
+/* line 420, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-red
+.breadcrumbs
+, #themeroller .color-scheme-red
 .breadcrumbs {
-  background-color: #0190d6;
+  background-color: #cf5333;
 }
 
 @media (min-width: 768px) {
-  /* line 423, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-purple
-th {
-    background-color: #d9edf8;
-  }
   /* line 428, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-purple tr.even, .ymca-color-scheme-purple
-tr.odd {
-    border-bottom: 1px solid #bfe1f3;
+  .color-scheme-red
+th
+, #themeroller .color-scheme-red
+th {
+    background-color: #e6f2fc;
   }
   /* line 433, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-purple
-tr.even {
-    background-color: #f2f9fd;
+  .color-scheme-red tr.even, .color-scheme-red
+tr.odd
+, #themeroller .color-scheme-red tr.even, #themeroller .color-scheme-red
+tr.odd {
+    border-bottom: 1px solid #d5eafa;
   }
   /* line 438, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-purple td.active {
-    background-color: #f2f9fd;
+  .color-scheme-red
+tr.even
+, #themeroller .color-scheme-red
+tr.even {
+    background-color: #f7fbfe;
   }
-  /* line 442, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-purple tr.even td.active {
-    background-color: #e6f3fa;
+  /* line 443, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-red td.active, #themeroller .color-scheme-red td.active {
+    background-color: #f7fbfe;
   }
-}
-
-/* line 150, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal a, .ymca-color-scheme-teal
-h1 {
-  color: #01a290;
+  /* line 447, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-red tr.even td.active, #themeroller .color-scheme-red tr.even td.active {
+    background-color: #eef6fd;
+  }
 }
 
 /* line 155, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+.color-scheme-orange a, .color-scheme-orange
+h1
+, #themeroller .color-scheme-orange a, #themeroller .color-scheme-orange
+h1 {
+  color: #e57633;
+}
+
+/* line 160, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+a:hover
+, #themeroller .color-scheme-orange
 a:hover {
-  color: #fbab18;
+  color: #43af95;
 }
 
-/* line 161, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal h2, .ymca-color-scheme-teal .site-name, .ymca-color-scheme-teal
+/* line 166, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange h2, .color-scheme-orange .site-name, .color-scheme-orange
+h3
+, #themeroller .color-scheme-orange h2, #themeroller .color-scheme-orange .site-name, #themeroller .color-scheme-orange
 h3 {
-  color: #fbab18;
-}
-
-/* line 167, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.primary-color {
-  color: #01a290;
+  color: #43af95;
 }
 
 /* line 172, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.secondary-color {
-  color: #fbab18;
+.color-scheme-orange
+.primary-color
+, #themeroller .color-scheme-orange
+.primary-color {
+  color: #e57633;
 }
 
 /* line 177, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+.color-scheme-orange
+.secondary-color
+, #themeroller .color-scheme-orange
+.secondary-color {
+  color: #43af95;
+}
+
+/* line 182, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.slide-scroll .row-center
+, #themeroller .color-scheme-orange
 .slide-scroll .row-center {
-  background-color: #fba70e;
-  background: -webkit-linear-gradient(left, #f47514, #fba70e);
-  background: -o-linear-gradient(right, #f47514, #fba70e);
-  background: -moz-linear-gradient(right, #f47514, #fba70e);
-  background: linear-gradient(to right, #f47514, #fba70e);
+  background-color: #40a88f;
+  background: -webkit-linear-gradient(left, #266563, #40a88f);
+  background: -o-linear-gradient(right, #266563, #40a88f);
+  background: -moz-linear-gradient(right, #266563, #40a88f);
+  background: linear-gradient(to right, #266563, #40a88f);
   color: #fff;
 }
 
 /* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.slide-scroll .row-center a, .ymca-color-scheme-teal
-.slide-scroll .row-center h2, .ymca-color-scheme-teal
-.slide-scroll .row-center .site-name, .ymca-color-scheme-teal
-.slide-scroll .row-center h3, .ymca-color-scheme-teal
-.slide-scroll .row-center h4, .ymca-color-scheme-teal
+.color-scheme-orange
+.slide-scroll .row-center
+a, .color-scheme-orange
+.slide-scroll .row-center
+h2, .color-scheme-orange
+.slide-scroll .row-center
+.site-name, .color-scheme-orange
+.slide-scroll .row-center
+h3, .color-scheme-orange
+.slide-scroll .row-center
+h4, .color-scheme-orange
+.slide-scroll .row-center
+h5
+, #themeroller .color-scheme-orange
+.slide-scroll .row-center a, #themeroller .color-scheme-orange
+.slide-scroll .row-center h2, #themeroller .color-scheme-orange
+.slide-scroll .row-center .site-name, #themeroller .color-scheme-orange
+.slide-scroll .row-center h3, #themeroller .color-scheme-orange
+.slide-scroll .row-center h4, #themeroller .color-scheme-orange
 .slide-scroll .row-center
 h5 {
   color: #fff;
 }
 
-/* line 183, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.slide-scroll .row-center:after
+, #themeroller .color-scheme-orange
 .slide-scroll .row-center:after {
-  border-left-color: #fba70e;
+  border-left-color: #40a88f;
 }
 
-/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.slide-scroll .slide-hover
+, #themeroller .color-scheme-orange
 .slide-scroll .slide-hover {
-  background: -webkit-linear-gradient(left, #007575, #01ac99);
-  background: -o-linear-gradient(right, #007575, #01ac99);
-  background: -moz-linear-gradient(right, #007575, #01ac99);
-  background: linear-gradient(to right, #007575, #01ac99);
+  background: -webkit-linear-gradient(left, #d15a3b, #e67c3c);
+  background: -o-linear-gradient(right, #d15a3b, #e67c3c);
+  background: -moz-linear-gradient(right, #d15a3b, #e67c3c);
+  background: linear-gradient(to right, #d15a3b, #e67c3c);
   color: #fff;
 }
 
 /* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.slide-scroll .slide-hover a, .ymca-color-scheme-teal
-.slide-scroll .slide-hover h2, .ymca-color-scheme-teal
-.slide-scroll .slide-hover .site-name, .ymca-color-scheme-teal
-.slide-scroll .slide-hover h3, .ymca-color-scheme-teal
-.slide-scroll .slide-hover h4, .ymca-color-scheme-teal
+.color-scheme-orange
+.slide-scroll .slide-hover
+a, .color-scheme-orange
+.slide-scroll .slide-hover
+h2, .color-scheme-orange
+.slide-scroll .slide-hover
+.site-name, .color-scheme-orange
+.slide-scroll .slide-hover
+h3, .color-scheme-orange
+.slide-scroll .slide-hover
+h4, .color-scheme-orange
+.slide-scroll .slide-hover
+h5
+, #themeroller .color-scheme-orange
+.slide-scroll .slide-hover a, #themeroller .color-scheme-orange
+.slide-scroll .slide-hover h2, #themeroller .color-scheme-orange
+.slide-scroll .slide-hover .site-name, #themeroller .color-scheme-orange
+.slide-scroll .slide-hover h3, #themeroller .color-scheme-orange
+.slide-scroll .slide-hover h4, #themeroller .color-scheme-orange
 .slide-scroll .slide-hover
 h5 {
   color: #fff;
 }
 
-/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.slide-scroll .slide-hover:after
+, #themeroller .color-scheme-orange
 .slide-scroll .slide-hover:after {
-  border-left-color: #01ac99;
+  border-left-color: #e67c3c;
 }
 
-/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal .region-header, .ymca-color-scheme-teal
+/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange .region-header, .color-scheme-orange
+.bg-primary-gradient
+, #themeroller .color-scheme-orange .region-header, #themeroller .color-scheme-orange
 .bg-primary-gradient {
-  background: #01a290;
-  background: -webkit-linear-gradient(#01a290, #006b6b);
-  background: -o-linear-gradient(#01a290, #006b6b);
-  background: -moz-linear-gradient(#01a290, #006b6b);
-  background: linear-gradient(#01a290, #006b6b);
+  background: #eeb135;
+  background: -webkit-linear-gradient(#eeb135, #cf5333);
+  background: -o-linear-gradient(#eeb135, #cf5333);
+  background: -moz-linear-gradient(#eeb135, #cf5333);
+  background: linear-gradient(#eeb135, #cf5333);
   color: #fff;
 }
 
 /* line 91, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal .region-header a, .ymca-color-scheme-teal .region-header h2, .ymca-color-scheme-teal .region-header .site-name, .ymca-color-scheme-teal .region-header h3, .ymca-color-scheme-teal .region-header h4, .ymca-color-scheme-teal .region-header
+.color-scheme-orange .region-header a, .color-scheme-orange .region-header h2, .color-scheme-orange .region-header .site-name, .color-scheme-orange .region-header h3, .color-scheme-orange .region-header h4, .color-scheme-orange .region-header
 h5
-, .ymca-color-scheme-teal
-.bg-primary-gradient a, .ymca-color-scheme-teal
-.bg-primary-gradient h2, .ymca-color-scheme-teal
-.bg-primary-gradient .site-name, .ymca-color-scheme-teal
-.bg-primary-gradient h3, .ymca-color-scheme-teal
-.bg-primary-gradient h4, .ymca-color-scheme-teal
+, .color-scheme-orange
+.bg-primary-gradient
+a, .color-scheme-orange
+.bg-primary-gradient
+h2, .color-scheme-orange
+.bg-primary-gradient
+.site-name, .color-scheme-orange
+.bg-primary-gradient
+h3, .color-scheme-orange
+.bg-primary-gradient
+h4, .color-scheme-orange
+.bg-primary-gradient
+h5
+, #themeroller .color-scheme-orange .region-header a, #themeroller .color-scheme-orange .region-header h2, #themeroller .color-scheme-orange .region-header .site-name, #themeroller .color-scheme-orange .region-header h3, #themeroller .color-scheme-orange .region-header h4, #themeroller .color-scheme-orange .region-header
+h5
+, #themeroller .color-scheme-orange
+.bg-primary-gradient a, #themeroller .color-scheme-orange
+.bg-primary-gradient h2, #themeroller .color-scheme-orange
+.bg-primary-gradient .site-name, #themeroller .color-scheme-orange
+.bg-primary-gradient h3, #themeroller .color-scheme-orange
+.bg-primary-gradient h4, #themeroller .color-scheme-orange
 .bg-primary-gradient
 h5 {
   color: #fff;
 }
 
-/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 208, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.primary-bg-color
+, #themeroller .color-scheme-orange
 .primary-bg-color {
-  background-color: #01a290;
-  color: #fff;
-}
-
-/* line 209, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.well-knockout-info {
-  background-color: #01a290;
+  background-color: #e57633;
   color: #fff;
 }
 
 /* line 214, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.well-knockout-info h1, .ymca-color-scheme-teal
-.well-knockout-info h2, .ymca-color-scheme-teal
-.well-knockout-info .site-name, .ymca-color-scheme-teal
-.well-knockout-info h3, .ymca-color-scheme-teal
+.color-scheme-orange
+.well-knockout-info
+, #themeroller .color-scheme-orange
+.well-knockout-info {
+  background-color: #e57633;
+  color: #fff;
+}
+
+/* line 219, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.well-knockout-info
+h1, .color-scheme-orange
+.well-knockout-info
+h2, .color-scheme-orange
+.well-knockout-info
+.site-name, .color-scheme-orange
+.well-knockout-info
+h3, .color-scheme-orange
+.well-knockout-info
+a
+, #themeroller .color-scheme-orange
+.well-knockout-info h1, #themeroller .color-scheme-orange
+.well-knockout-info h2, #themeroller .color-scheme-orange
+.well-knockout-info .site-name, #themeroller .color-scheme-orange
+.well-knockout-info h3, #themeroller .color-scheme-orange
 .well-knockout-info
 a {
   color: #fff;
 }
 
-/* line 221, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.primary-bg-color-top
+, #themeroller .color-scheme-orange
 .primary-bg-color-top {
-  background-color: #01a290;
+  background-color: #e57633;
   color: #fff;
 }
 
-/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.primary-bg-color-top h1, .ymca-color-scheme-teal
-.primary-bg-color-top h2, .ymca-color-scheme-teal
-.primary-bg-color-top .site-name, .ymca-color-scheme-teal
-.primary-bg-color-top h3, .ymca-color-scheme-teal
+/* line 231, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.primary-bg-color-top
+h1, .color-scheme-orange
+.primary-bg-color-top
+h2, .color-scheme-orange
+.primary-bg-color-top
+.site-name, .color-scheme-orange
+.primary-bg-color-top
+h3, .color-scheme-orange
+.primary-bg-color-top
+a
+, #themeroller .color-scheme-orange
+.primary-bg-color-top h1, #themeroller .color-scheme-orange
+.primary-bg-color-top h2, #themeroller .color-scheme-orange
+.primary-bg-color-top .site-name, #themeroller .color-scheme-orange
+.primary-bg-color-top h3, #themeroller .color-scheme-orange
 .primary-bg-color-top
 a {
   color: #fff;
 }
 
-/* line 232, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.primary-bg-color-bottom
+, #themeroller .color-scheme-orange
 .primary-bg-color-bottom {
-  background-color: #006b6b;
+  background-color: #cf5333;
   color: #fff;
 }
 
-/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.primary-bg-color-bottom h1, .ymca-color-scheme-teal
-.primary-bg-color-bottom h2, .ymca-color-scheme-teal
-.primary-bg-color-bottom .site-name, .ymca-color-scheme-teal
-.primary-bg-color-bottom h3, .ymca-color-scheme-teal
+/* line 242, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.primary-bg-color-bottom
+h1, .color-scheme-orange
+.primary-bg-color-bottom
+h2, .color-scheme-orange
+.primary-bg-color-bottom
+.site-name, .color-scheme-orange
+.primary-bg-color-bottom
+h3, .color-scheme-orange
+.primary-bg-color-bottom
+a
+, #themeroller .color-scheme-orange
+.primary-bg-color-bottom h1, #themeroller .color-scheme-orange
+.primary-bg-color-bottom h2, #themeroller .color-scheme-orange
+.primary-bg-color-bottom .site-name, #themeroller .color-scheme-orange
+.primary-bg-color-bottom h3, #themeroller .color-scheme-orange
 .primary-bg-color-bottom
 a {
   color: #fff;
 }
 
-/* line 244, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.secondary-bg-color
+, #themeroller .color-scheme-orange
 .secondary-bg-color {
-  background-color: #fbab18;
+  background-color: #43af95;
   color: #fff;
 }
 
-/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.secondary-bg-color h1, .ymca-color-scheme-teal
-.secondary-bg-color h2, .ymca-color-scheme-teal
-.secondary-bg-color .site-name, .ymca-color-scheme-teal
-.secondary-bg-color h3, .ymca-color-scheme-teal
+/* line 254, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.secondary-bg-color
+h1, .color-scheme-orange
+.secondary-bg-color
+h2, .color-scheme-orange
+.secondary-bg-color
+.site-name, .color-scheme-orange
+.secondary-bg-color
+h3, .color-scheme-orange
+.secondary-bg-color
+a
+, #themeroller .color-scheme-orange
+.secondary-bg-color h1, #themeroller .color-scheme-orange
+.secondary-bg-color h2, #themeroller .color-scheme-orange
+.secondary-bg-color .site-name, #themeroller .color-scheme-orange
+.secondary-bg-color h3, #themeroller .color-scheme-orange
 .secondary-bg-color
 a {
   color: #fff;
 }
 
-/* line 255, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 260, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.secondary-bg-color-top
+, #themeroller .color-scheme-orange
 .secondary-bg-color-top {
-  background-color: #fbab18;
+  background-color: #43af95;
   color: #fff;
 }
 
-/* line 261, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 266, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.secondary-bg-color-bottom
+, #themeroller .color-scheme-orange
 .secondary-bg-color-bottom {
-  background-color: #f47b1e;
+  background-color: #296c6a;
   color: #fff;
-}
-
-/* line 267, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.btn-primary {
-  color: #fff;
-  background-color: #09a593;
-  box-shadow: #21f3db 0 1px 0 inset;
-  border: 1px solid #067568;
-}
-
-/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-teal
-.btn-primary:hover {
-  background-color: #067568;
-}
-
-/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-teal
-.btn-primary.disabled, .ymca-color-scheme-teal
-.btn-primary[disabled] {
-  background: #0cd5be;
 }
 
 /* line 272, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.btn-secondary {
+.color-scheme-orange
+.btn-primary
+, #themeroller .color-scheme-orange
+.btn-primary {
   color: #fff;
-  background-color: #fbae1f;
-  box-shadow: #fdd283 0 1px 0 inset;
-  border: 1px solid #e39504;
+  background-color: #e67a39;
+  box-shadow: #f1b794 0 1px 0 inset;
+  border: 1px solid #d25f1a;
 }
 
 /* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-teal
-.btn-secondary:hover {
-  background-color: #e39504;
+.color-scheme-orange
+.btn-primary
+:hover
+, #themeroller .color-scheme-orange
+.btn-primary:hover {
+  background-color: #d25f1a;
 }
 
 /* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
-.ymca-color-scheme-teal
-.btn-secondary.disabled, .ymca-color-scheme-teal
-.btn-secondary[disabled] {
-  background: #fcc051;
+.color-scheme-orange
+.btn-primary
+.disabled, .color-scheme-orange
+.btn-primary
+[disabled]
+, #themeroller .color-scheme-orange
+.btn-primary.disabled, #themeroller .color-scheme-orange
+.btn-primary[disabled] {
+  background: #ec9866;
 }
 
 /* line 277, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+.color-scheme-orange
+.btn-secondary
+, #themeroller .color-scheme-orange
+.btn-secondary {
+  color: #fff;
+  background-color: #49b198;
+  box-shadow: #8fd1c1 0 1px 0 inset;
+  border: 1px solid #3a8d79;
+}
+
+/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-orange
+.btn-secondary
+:hover
+, #themeroller .color-scheme-orange
+.btn-secondary:hover {
+  background-color: #3a8d79;
+}
+
+/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-orange
+.btn-secondary
+.disabled, .color-scheme-orange
+.btn-secondary
+[disabled]
+, #themeroller .color-scheme-orange
+.btn-secondary.disabled, #themeroller .color-scheme-orange
+.btn-secondary[disabled] {
+  background: #6bc2ad;
+}
+
+/* line 282, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.billboard-empty
+, #themeroller .color-scheme-orange
 .billboard-empty {
   background-color: #cccccc;
 }
 
-/* line 285, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 290, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.menu-ymca
+a
+, #themeroller .color-scheme-orange
 .menu-ymca
 a {
-  color: #01a290;
+  color: #e57633;
 }
 
-/* line 291, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.menu-ymca li li a, .ymca-color-scheme-teal
+/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.menu-ymca
+li li a, .color-scheme-orange
+.menu-ymca
+li.sf-expanded a
+, #themeroller .color-scheme-orange
+.menu-ymca li li a, #themeroller .color-scheme-orange
 .menu-ymca
 li.sf-expanded a {
   color: #fff;
 }
 
-/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.menu-ymca li ul, .ymca-color-scheme-teal
+/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.menu-ymca
+li ul, .color-scheme-orange
+.menu-ymca
+li.sf-expanded
+, #themeroller .color-scheme-orange
+.menu-ymca li ul, #themeroller .color-scheme-orange
 .menu-ymca
 li.sf-expanded {
-  background: #01a290;
-}
-
-/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.menu-ymca
-li li {
-  border-top: 1px solid #017165;
+  background: #e57633;
 }
 
 /* line 306, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+.color-scheme-orange
+.menu-ymca
+li li
+, #themeroller .color-scheme-orange
 .menu-ymca
 li li {
-  border-top: 1px solid #017165;
+  border-top: 1px solid #a05324;
 }
 
 /* line 311, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.menu-ymca li li.sfHover, .ymca-color-scheme-teal
+.color-scheme-orange
 .menu-ymca
-li li:hover {
-  background: #019a89;
+li li
+, #themeroller .color-scheme-orange
+.menu-ymca
+li li {
+  border-top: 1px solid #a05324;
 }
 
 /* line 316, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+.color-scheme-orange
 .menu-ymca
-.sf-sub-indicator {
-  color: #01a290;
+li li.sfHover, .color-scheme-orange
+.menu-ymca
+li li:hover
+, #themeroller .color-scheme-orange
+.menu-ymca li li.sfHover, #themeroller .color-scheme-orange
+.menu-ymca
+li li:hover {
+  background: #da7030;
 }
 
 /* line 321, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.menu-ymca li.sfHover, .ymca-color-scheme-teal
+.color-scheme-orange
 .menu-ymca
-li:hover {
-  background: #01a290;
+.sf-sub-indicator
+, #themeroller .color-scheme-orange
+.menu-ymca
+.sf-sub-indicator {
+  color: #e57633;
 }
 
-/* line 325, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.menu-ymca li.sfHover a, .ymca-color-scheme-teal
+/* line 326, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.menu-ymca
+li.sfHover, .color-scheme-orange
+.menu-ymca
+li:hover
+, #themeroller .color-scheme-orange
+.menu-ymca li.sfHover, #themeroller .color-scheme-orange
+.menu-ymca
+li:hover {
+  background: #e57633;
+}
+
+/* line 330, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.menu-ymca
+li.sfHover a, .color-scheme-orange
+.menu-ymca
+li.sfHover
+.sf-sub-indicator
+, .color-scheme-orange
+.menu-ymca
+li:hover
+a, .color-scheme-orange
+.menu-ymca
+li:hover
+.sf-sub-indicator
+, #themeroller .color-scheme-orange
+.menu-ymca li.sfHover a, #themeroller .color-scheme-orange
 .menu-ymca li.sfHover
 .sf-sub-indicator
-, .ymca-color-scheme-teal
+, #themeroller .color-scheme-orange
 .menu-ymca
-li:hover a, .ymca-color-scheme-teal
+li:hover a, #themeroller .color-scheme-orange
 .menu-ymca
 li:hover
 .sf-sub-indicator {
   color: #fff;
 }
 
-/* line 333, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.menu-ymca li.active-trail, .ymca-color-scheme-teal
-.menu-ymca li.active, .ymca-color-scheme-teal
-.menu-ymca li li.active-trail, .ymca-color-scheme-teal
+/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.menu-ymca
+li.active-trail, .color-scheme-orange
+.menu-ymca
+li.active, .color-scheme-orange
+.menu-ymca
+li li.active-trail, .color-scheme-orange
+.menu-ymca
+li li.active
+, #themeroller .color-scheme-orange
+.menu-ymca li.active-trail, #themeroller .color-scheme-orange
+.menu-ymca li.active, #themeroller .color-scheme-orange
+.menu-ymca li li.active-trail, #themeroller .color-scheme-orange
 .menu-ymca
 li li.active {
-  background: #ccece9;
-  color: #01a290;
+  background: #fae4d6;
+  color: #e57633;
 }
 
-/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.menu-ymca li.active-trail > a, .ymca-color-scheme-teal
+/* line 343, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.menu-ymca
+li.active-trail > a, .color-scheme-orange
+.menu-ymca
+li.active-trail
+.sf-sub-indicator
+, .color-scheme-orange
+.menu-ymca
+li.active > a, .color-scheme-orange
+.menu-ymca
+li.active
+.sf-sub-indicator
+, .color-scheme-orange
+.menu-ymca
+li li.active-trail > a, .color-scheme-orange
+.menu-ymca
+li li.active-trail
+.sf-sub-indicator
+, .color-scheme-orange
+.menu-ymca
+li li.active
+> a, .color-scheme-orange
+.menu-ymca
+li li.active
+.sf-sub-indicator
+, #themeroller .color-scheme-orange
+.menu-ymca li.active-trail > a, #themeroller .color-scheme-orange
 .menu-ymca li.active-trail
 .sf-sub-indicator
-, .ymca-color-scheme-teal
-.menu-ymca li.active > a, .ymca-color-scheme-teal
+, #themeroller .color-scheme-orange
+.menu-ymca li.active > a, #themeroller .color-scheme-orange
 .menu-ymca li.active
 .sf-sub-indicator
-, .ymca-color-scheme-teal
-.menu-ymca li li.active-trail > a, .ymca-color-scheme-teal
+, #themeroller .color-scheme-orange
+.menu-ymca li li.active-trail > a, #themeroller .color-scheme-orange
 .menu-ymca li li.active-trail
 .sf-sub-indicator
-, .ymca-color-scheme-teal
+, #themeroller .color-scheme-orange
 .menu-ymca
-li li.active > a, .ymca-color-scheme-teal
+li li.active > a, #themeroller .color-scheme-orange
 .menu-ymca
 li li.active
 .sf-sub-indicator {
-  color: #01a290;
+  color: #e57633;
 }
 
 @media (min-width: 768px) {
-  /* line 347, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-teal
-.menu-ymca .sf-menu > li.first, .ymca-color-scheme-teal
+  /* line 352, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-orange
+.menu-ymca
+.sf-menu > li.first, .color-scheme-orange
+.menu-ymca
+.sf-menu > li.firstandlast
+, #themeroller .color-scheme-orange
+.menu-ymca .sf-menu > li.first, #themeroller .color-scheme-orange
 .menu-ymca
 .sf-menu > li.firstandlast {
-    background-color: #01a290;
+    background-color: #e57633;
   }
-  /* line 351, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-teal
+  /* line 356, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-orange
+.menu-ymca
+.sf-menu > li.first > a
+, .color-scheme-orange
+.menu-ymca
+.sf-menu > li.firstandlast
+> a
+, #themeroller .color-scheme-orange
 .menu-ymca .sf-menu > li.first > a
-, .ymca-color-scheme-teal
+, #themeroller .color-scheme-orange
 .menu-ymca
 .sf-menu > li.firstandlast > a {
     color: #fff;
   }
 }
 
-/* line 365, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.ymca-secondary-menu .pane-content
+.menu
+, #themeroller .color-scheme-orange
 .ymca-secondary-menu .pane-content
 .menu {
-  background: #01a290;
-}
-
-/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.ymca-secondary-menu .pane-content
-li {
-  border-top: 1px solid #4dbeb1;
+  background: #e57633;
 }
 
 /* line 375, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+.color-scheme-orange
+.ymca-secondary-menu .pane-content
+li
+, #themeroller .color-scheme-orange
+.ymca-secondary-menu .pane-content
+li {
+  border-top: 1px solid #ed9f70;
+}
+
+/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.ymca-secondary-menu .pane-content
+li.first
+, #themeroller .color-scheme-orange
 .ymca-secondary-menu .pane-content
 li.first {
   border-top: none;
 }
 
-/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.ymca-secondary-menu .pane-content li.active-trail, .ymca-color-scheme-teal
-.ymca-secondary-menu .pane-content li.active-trail ul, .ymca-color-scheme-teal
+/* line 385, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.ymca-secondary-menu .pane-content
+li.active-trail, .color-scheme-orange
+.ymca-secondary-menu .pane-content
+li.active-trail ul, .color-scheme-orange
+.ymca-secondary-menu .pane-content
+li.active
+, #themeroller .color-scheme-orange
+.ymca-secondary-menu .pane-content li.active-trail, #themeroller .color-scheme-orange
+.ymca-secondary-menu .pane-content li.active-trail ul, #themeroller .color-scheme-orange
 .ymca-secondary-menu .pane-content
 li.active {
-  background: #e6f6f4;
+  background: #fcf1eb;
 }
 
-/* line 384, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 389, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.ymca-secondary-menu .pane-content
+li.active-trail
+li
+, .color-scheme-orange
+.ymca-secondary-menu .pane-content
+li.active-trail ul
+li
+, .color-scheme-orange
+.ymca-secondary-menu .pane-content
+li.active
+li
+, #themeroller .color-scheme-orange
 .ymca-secondary-menu .pane-content li.active-trail
 li
-, .ymca-color-scheme-teal
+, #themeroller .color-scheme-orange
 .ymca-secondary-menu .pane-content li.active-trail ul
 li
-, .ymca-color-scheme-teal
+, #themeroller .color-scheme-orange
 .ymca-secondary-menu .pane-content
 li.active
 li {
   border: none;
 }
 
-/* line 391, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
-.ymca-secondary-menu .pane-content .active-trail a, .ymca-color-scheme-teal
+/* line 396, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.ymca-secondary-menu .pane-content
+.active-trail a, .color-scheme-orange
+.ymca-secondary-menu .pane-content
+li.active a
+, #themeroller .color-scheme-orange
+.ymca-secondary-menu .pane-content .active-trail a, #themeroller .color-scheme-orange
 .ymca-secondary-menu .pane-content
 li.active a {
-  color: #01a290;
+  color: #e57633;
 }
 
-/* line 398, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 403, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.site-selector-homepage .group-active
+, #themeroller .color-scheme-orange
 .site-selector-homepage .group-active {
-  border-top: 2px solid #67c7bc;
+  border-top: 2px solid #efad85;
 }
 
-/* line 405, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 410, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.nav-search
+input[type="text"], #themeroller .color-scheme-orange
 .nav-search input[type="text"] {
-  color: #ccece9;
+  color: #fae4d6;
 }
 
-/* line 407, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 412, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.nav-search
+.search-fill
+, #themeroller .color-scheme-orange
 .nav-search
 .search-fill {
-  background-color: #34b5a6;
-  border: solid 1px #67c7bc;
+  background-color: #ea915c;
+  border: solid 1px #efad85;
 }
 
-/* line 415, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-.ymca-color-scheme-teal
+/* line 420, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-orange
+.breadcrumbs
+, #themeroller .color-scheme-orange
 .breadcrumbs {
-  background-color: #f47b1e;
+  background-color: #296c6a;
 }
 
 @media (min-width: 768px) {
-  /* line 423, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-teal
-th {
-    background-color: #d9edf8;
-  }
   /* line 428, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-teal tr.even, .ymca-color-scheme-teal
-tr.odd {
-    border-bottom: 1px solid #bfe1f3;
+  .color-scheme-orange
+th
+, #themeroller .color-scheme-orange
+th {
+    background-color: #e6f2fc;
   }
   /* line 433, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-teal
-tr.even {
-    background-color: #f2f9fd;
+  .color-scheme-orange tr.even, .color-scheme-orange
+tr.odd
+, #themeroller .color-scheme-orange tr.even, #themeroller .color-scheme-orange
+tr.odd {
+    border-bottom: 1px solid #d5eafa;
   }
   /* line 438, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-teal td.active {
-    background-color: #f2f9fd;
+  .color-scheme-orange
+tr.even
+, #themeroller .color-scheme-orange
+tr.even {
+    background-color: #f7fbfe;
   }
-  /* line 442, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
-  .ymca-color-scheme-teal tr.even td.active {
-    background-color: #e6f3fa;
+  /* line 443, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-orange td.active, #themeroller .color-scheme-orange td.active {
+    background-color: #f7fbfe;
+  }
+  /* line 447, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-orange tr.even td.active, #themeroller .color-scheme-orange tr.even td.active {
+    background-color: #eef6fd;
+  }
+}
+
+/* line 155, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green a, .color-scheme-green
+h1
+, #themeroller .color-scheme-green a, #themeroller .color-scheme-green
+h1 {
+  color: #43af95;
+}
+
+/* line 160, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+a:hover
+, #themeroller .color-scheme-green
+a:hover {
+  color: #4684cc;
+}
+
+/* line 166, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green h2, .color-scheme-green .site-name, .color-scheme-green
+h3
+, #themeroller .color-scheme-green h2, #themeroller .color-scheme-green .site-name, #themeroller .color-scheme-green
+h3 {
+  color: #4684cc;
+}
+
+/* line 172, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.primary-color
+, #themeroller .color-scheme-green
+.primary-color {
+  color: #43af95;
+}
+
+/* line 177, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.secondary-color
+, #themeroller .color-scheme-green
+.secondary-color {
+  color: #4684cc;
+}
+
+/* line 182, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.slide-scroll .row-center
+, #themeroller .color-scheme-green
+.slide-scroll .row-center {
+  background-color: #3e7fca;
+  background: -webkit-linear-gradient(left, #3454a3, #3e7fca);
+  background: -o-linear-gradient(right, #3454a3, #3e7fca);
+  background: -moz-linear-gradient(right, #3454a3, #3e7fca);
+  background: linear-gradient(to right, #3454a3, #3e7fca);
+  color: #fff;
+}
+
+/* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.slide-scroll .row-center
+a, .color-scheme-green
+.slide-scroll .row-center
+h2, .color-scheme-green
+.slide-scroll .row-center
+.site-name, .color-scheme-green
+.slide-scroll .row-center
+h3, .color-scheme-green
+.slide-scroll .row-center
+h4, .color-scheme-green
+.slide-scroll .row-center
+h5
+, #themeroller .color-scheme-green
+.slide-scroll .row-center a, #themeroller .color-scheme-green
+.slide-scroll .row-center h2, #themeroller .color-scheme-green
+.slide-scroll .row-center .site-name, #themeroller .color-scheme-green
+.slide-scroll .row-center h3, #themeroller .color-scheme-green
+.slide-scroll .row-center h4, #themeroller .color-scheme-green
+.slide-scroll .row-center
+h5 {
+  color: #fff;
+}
+
+/* line 188, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.slide-scroll .row-center:after
+, #themeroller .color-scheme-green
+.slide-scroll .row-center:after {
+  border-left-color: #3e7fca;
+}
+
+/* line 193, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.slide-scroll .slide-hover
+, #themeroller .color-scheme-green
+.slide-scroll .slide-hover {
+  background: -webkit-linear-gradient(left, #2c7371, #46b69b);
+  background: -o-linear-gradient(right, #2c7371, #46b69b);
+  background: -moz-linear-gradient(right, #2c7371, #46b69b);
+  background: linear-gradient(to right, #2c7371, #46b69b);
+  color: #fff;
+}
+
+/* line 108, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.slide-scroll .slide-hover
+a, .color-scheme-green
+.slide-scroll .slide-hover
+h2, .color-scheme-green
+.slide-scroll .slide-hover
+.site-name, .color-scheme-green
+.slide-scroll .slide-hover
+h3, .color-scheme-green
+.slide-scroll .slide-hover
+h4, .color-scheme-green
+.slide-scroll .slide-hover
+h5
+, #themeroller .color-scheme-green
+.slide-scroll .slide-hover a, #themeroller .color-scheme-green
+.slide-scroll .slide-hover h2, #themeroller .color-scheme-green
+.slide-scroll .slide-hover .site-name, #themeroller .color-scheme-green
+.slide-scroll .slide-hover h3, #themeroller .color-scheme-green
+.slide-scroll .slide-hover h4, #themeroller .color-scheme-green
+.slide-scroll .slide-hover
+h5 {
+  color: #fff;
+}
+
+/* line 198, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.slide-scroll .slide-hover:after
+, #themeroller .color-scheme-green
+.slide-scroll .slide-hover:after {
+  border-left-color: #46b69b;
+}
+
+/* line 203, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green .region-header, .color-scheme-green
+.bg-primary-gradient
+, #themeroller .color-scheme-green .region-header, #themeroller .color-scheme-green
+.bg-primary-gradient {
+  background: #55a9ec;
+  background: -webkit-linear-gradient(#55a9ec, #3658ab);
+  background: -o-linear-gradient(#55a9ec, #3658ab);
+  background: -moz-linear-gradient(#55a9ec, #3658ab);
+  background: linear-gradient(#55a9ec, #3658ab);
+  color: #fff;
+}
+
+/* line 91, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green .region-header a, .color-scheme-green .region-header h2, .color-scheme-green .region-header .site-name, .color-scheme-green .region-header h3, .color-scheme-green .region-header h4, .color-scheme-green .region-header
+h5
+, .color-scheme-green
+.bg-primary-gradient
+a, .color-scheme-green
+.bg-primary-gradient
+h2, .color-scheme-green
+.bg-primary-gradient
+.site-name, .color-scheme-green
+.bg-primary-gradient
+h3, .color-scheme-green
+.bg-primary-gradient
+h4, .color-scheme-green
+.bg-primary-gradient
+h5
+, #themeroller .color-scheme-green .region-header a, #themeroller .color-scheme-green .region-header h2, #themeroller .color-scheme-green .region-header .site-name, #themeroller .color-scheme-green .region-header h3, #themeroller .color-scheme-green .region-header h4, #themeroller .color-scheme-green .region-header
+h5
+, #themeroller .color-scheme-green
+.bg-primary-gradient a, #themeroller .color-scheme-green
+.bg-primary-gradient h2, #themeroller .color-scheme-green
+.bg-primary-gradient .site-name, #themeroller .color-scheme-green
+.bg-primary-gradient h3, #themeroller .color-scheme-green
+.bg-primary-gradient h4, #themeroller .color-scheme-green
+.bg-primary-gradient
+h5 {
+  color: #fff;
+}
+
+/* line 208, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.primary-bg-color
+, #themeroller .color-scheme-green
+.primary-bg-color {
+  background-color: #43af95;
+  color: #fff;
+}
+
+/* line 214, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.well-knockout-info
+, #themeroller .color-scheme-green
+.well-knockout-info {
+  background-color: #43af95;
+  color: #fff;
+}
+
+/* line 219, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.well-knockout-info
+h1, .color-scheme-green
+.well-knockout-info
+h2, .color-scheme-green
+.well-knockout-info
+.site-name, .color-scheme-green
+.well-knockout-info
+h3, .color-scheme-green
+.well-knockout-info
+a
+, #themeroller .color-scheme-green
+.well-knockout-info h1, #themeroller .color-scheme-green
+.well-knockout-info h2, #themeroller .color-scheme-green
+.well-knockout-info .site-name, #themeroller .color-scheme-green
+.well-knockout-info h3, #themeroller .color-scheme-green
+.well-knockout-info
+a {
+  color: #fff;
+}
+
+/* line 226, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.primary-bg-color-top
+, #themeroller .color-scheme-green
+.primary-bg-color-top {
+  background-color: #43af95;
+  color: #fff;
+}
+
+/* line 231, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.primary-bg-color-top
+h1, .color-scheme-green
+.primary-bg-color-top
+h2, .color-scheme-green
+.primary-bg-color-top
+.site-name, .color-scheme-green
+.primary-bg-color-top
+h3, .color-scheme-green
+.primary-bg-color-top
+a
+, #themeroller .color-scheme-green
+.primary-bg-color-top h1, #themeroller .color-scheme-green
+.primary-bg-color-top h2, #themeroller .color-scheme-green
+.primary-bg-color-top .site-name, #themeroller .color-scheme-green
+.primary-bg-color-top h3, #themeroller .color-scheme-green
+.primary-bg-color-top
+a {
+  color: #fff;
+}
+
+/* line 237, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.primary-bg-color-bottom
+, #themeroller .color-scheme-green
+.primary-bg-color-bottom {
+  background-color: #296c6a;
+  color: #fff;
+}
+
+/* line 242, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.primary-bg-color-bottom
+h1, .color-scheme-green
+.primary-bg-color-bottom
+h2, .color-scheme-green
+.primary-bg-color-bottom
+.site-name, .color-scheme-green
+.primary-bg-color-bottom
+h3, .color-scheme-green
+.primary-bg-color-bottom
+a
+, #themeroller .color-scheme-green
+.primary-bg-color-bottom h1, #themeroller .color-scheme-green
+.primary-bg-color-bottom h2, #themeroller .color-scheme-green
+.primary-bg-color-bottom .site-name, #themeroller .color-scheme-green
+.primary-bg-color-bottom h3, #themeroller .color-scheme-green
+.primary-bg-color-bottom
+a {
+  color: #fff;
+}
+
+/* line 249, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.secondary-bg-color
+, #themeroller .color-scheme-green
+.secondary-bg-color {
+  background-color: #4684cc;
+  color: #fff;
+}
+
+/* line 254, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.secondary-bg-color
+h1, .color-scheme-green
+.secondary-bg-color
+h2, .color-scheme-green
+.secondary-bg-color
+.site-name, .color-scheme-green
+.secondary-bg-color
+h3, .color-scheme-green
+.secondary-bg-color
+a
+, #themeroller .color-scheme-green
+.secondary-bg-color h1, #themeroller .color-scheme-green
+.secondary-bg-color h2, #themeroller .color-scheme-green
+.secondary-bg-color .site-name, #themeroller .color-scheme-green
+.secondary-bg-color h3, #themeroller .color-scheme-green
+.secondary-bg-color
+a {
+  color: #fff;
+}
+
+/* line 260, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.secondary-bg-color-top
+, #themeroller .color-scheme-green
+.secondary-bg-color-top {
+  background-color: #4684cc;
+  color: #fff;
+}
+
+/* line 266, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.secondary-bg-color-bottom
+, #themeroller .color-scheme-green
+.secondary-bg-color-bottom {
+  background-color: #3658ab;
+  color: #fff;
+}
+
+/* line 272, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.btn-primary
+, #themeroller .color-scheme-green
+.btn-primary {
+  color: #fff;
+  background-color: #49b198;
+  box-shadow: #8fd1c1 0 1px 0 inset;
+  border: 1px solid #3a8d79;
+}
+
+/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-green
+.btn-primary
+:hover
+, #themeroller .color-scheme-green
+.btn-primary:hover {
+  background-color: #3a8d79;
+}
+
+/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-green
+.btn-primary
+.disabled, .color-scheme-green
+.btn-primary
+[disabled]
+, #themeroller .color-scheme-green
+.btn-primary.disabled, #themeroller .color-scheme-green
+.btn-primary[disabled] {
+  background: #6bc2ad;
+}
+
+/* line 277, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.btn-secondary
+, #themeroller .color-scheme-green
+.btn-secondary {
+  color: #fff;
+  background-color: #4c88ce;
+  box-shadow: #9cbde4 0 1px 0 inset;
+  border: 1px solid #326eb5;
+}
+
+/* line 95, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-green
+.btn-secondary
+:hover
+, #themeroller .color-scheme-green
+.btn-secondary:hover {
+  background-color: #326eb5;
+}
+
+/* line 100, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_buttons.scss */
+.color-scheme-green
+.btn-secondary
+.disabled, .color-scheme-green
+.btn-secondary
+[disabled]
+, #themeroller .color-scheme-green
+.btn-secondary.disabled, #themeroller .color-scheme-green
+.btn-secondary[disabled] {
+  background: #74a3d9;
+}
+
+/* line 282, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.billboard-empty
+, #themeroller .color-scheme-green
+.billboard-empty {
+  background-color: #cccccc;
+}
+
+/* line 290, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+a
+, #themeroller .color-scheme-green
+.menu-ymca
+a {
+  color: #43af95;
+}
+
+/* line 296, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li li a, .color-scheme-green
+.menu-ymca
+li.sf-expanded a
+, #themeroller .color-scheme-green
+.menu-ymca li li a, #themeroller .color-scheme-green
+.menu-ymca
+li.sf-expanded a {
+  color: #fff;
+}
+
+/* line 301, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li ul, .color-scheme-green
+.menu-ymca
+li.sf-expanded
+, #themeroller .color-scheme-green
+.menu-ymca li ul, #themeroller .color-scheme-green
+.menu-ymca
+li.sf-expanded {
+  background: #43af95;
+}
+
+/* line 306, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li li
+, #themeroller .color-scheme-green
+.menu-ymca
+li li {
+  border-top: 1px solid #2f7a68;
+}
+
+/* line 311, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li li
+, #themeroller .color-scheme-green
+.menu-ymca
+li li {
+  border-top: 1px solid #2f7a68;
+}
+
+/* line 316, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li li.sfHover, .color-scheme-green
+.menu-ymca
+li li:hover
+, #themeroller .color-scheme-green
+.menu-ymca li li.sfHover, #themeroller .color-scheme-green
+.menu-ymca
+li li:hover {
+  background: #40a68e;
+}
+
+/* line 321, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+.sf-sub-indicator
+, #themeroller .color-scheme-green
+.menu-ymca
+.sf-sub-indicator {
+  color: #43af95;
+}
+
+/* line 326, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li.sfHover, .color-scheme-green
+.menu-ymca
+li:hover
+, #themeroller .color-scheme-green
+.menu-ymca li.sfHover, #themeroller .color-scheme-green
+.menu-ymca
+li:hover {
+  background: #43af95;
+}
+
+/* line 330, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li.sfHover a, .color-scheme-green
+.menu-ymca
+li.sfHover
+.sf-sub-indicator
+, .color-scheme-green
+.menu-ymca
+li:hover
+a, .color-scheme-green
+.menu-ymca
+li:hover
+.sf-sub-indicator
+, #themeroller .color-scheme-green
+.menu-ymca li.sfHover a, #themeroller .color-scheme-green
+.menu-ymca li.sfHover
+.sf-sub-indicator
+, #themeroller .color-scheme-green
+.menu-ymca
+li:hover a, #themeroller .color-scheme-green
+.menu-ymca
+li:hover
+.sf-sub-indicator {
+  color: #fff;
+}
+
+/* line 338, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li.active-trail, .color-scheme-green
+.menu-ymca
+li.active, .color-scheme-green
+.menu-ymca
+li li.active-trail, .color-scheme-green
+.menu-ymca
+li li.active
+, #themeroller .color-scheme-green
+.menu-ymca li.active-trail, #themeroller .color-scheme-green
+.menu-ymca li.active, #themeroller .color-scheme-green
+.menu-ymca li li.active-trail, #themeroller .color-scheme-green
+.menu-ymca
+li li.active {
+  background: #d9efea;
+  color: #43af95;
+}
+
+/* line 343, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.menu-ymca
+li.active-trail > a, .color-scheme-green
+.menu-ymca
+li.active-trail
+.sf-sub-indicator
+, .color-scheme-green
+.menu-ymca
+li.active > a, .color-scheme-green
+.menu-ymca
+li.active
+.sf-sub-indicator
+, .color-scheme-green
+.menu-ymca
+li li.active-trail > a, .color-scheme-green
+.menu-ymca
+li li.active-trail
+.sf-sub-indicator
+, .color-scheme-green
+.menu-ymca
+li li.active
+> a, .color-scheme-green
+.menu-ymca
+li li.active
+.sf-sub-indicator
+, #themeroller .color-scheme-green
+.menu-ymca li.active-trail > a, #themeroller .color-scheme-green
+.menu-ymca li.active-trail
+.sf-sub-indicator
+, #themeroller .color-scheme-green
+.menu-ymca li.active > a, #themeroller .color-scheme-green
+.menu-ymca li.active
+.sf-sub-indicator
+, #themeroller .color-scheme-green
+.menu-ymca li li.active-trail > a, #themeroller .color-scheme-green
+.menu-ymca li li.active-trail
+.sf-sub-indicator
+, #themeroller .color-scheme-green
+.menu-ymca
+li li.active > a, #themeroller .color-scheme-green
+.menu-ymca
+li li.active
+.sf-sub-indicator {
+  color: #43af95;
+}
+
+@media (min-width: 768px) {
+  /* line 352, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-green
+.menu-ymca
+.sf-menu > li.first, .color-scheme-green
+.menu-ymca
+.sf-menu > li.firstandlast
+, #themeroller .color-scheme-green
+.menu-ymca .sf-menu > li.first, #themeroller .color-scheme-green
+.menu-ymca
+.sf-menu > li.firstandlast {
+    background-color: #43af95;
+  }
+  /* line 356, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-green
+.menu-ymca
+.sf-menu > li.first > a
+, .color-scheme-green
+.menu-ymca
+.sf-menu > li.firstandlast
+> a
+, #themeroller .color-scheme-green
+.menu-ymca .sf-menu > li.first > a
+, #themeroller .color-scheme-green
+.menu-ymca
+.sf-menu > li.firstandlast > a {
+    color: #fff;
+  }
+}
+
+/* line 370, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.ymca-secondary-menu .pane-content
+.menu
+, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content
+.menu {
+  background: #43af95;
+}
+
+/* line 375, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.ymca-secondary-menu .pane-content
+li
+, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content
+li {
+  border-top: 1px solid #7bc7b5;
+}
+
+/* line 380, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.ymca-secondary-menu .pane-content
+li.first
+, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.first {
+  border-top: none;
+}
+
+/* line 385, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active-trail, .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active-trail ul, .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active
+, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content li.active-trail, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content li.active-trail ul, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active {
+  background: #ecf7f4;
+}
+
+/* line 389, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active-trail
+li
+, .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active-trail ul
+li
+, .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active
+li
+, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content li.active-trail
+li
+, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content li.active-trail ul
+li
+, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active
+li {
+  border: none;
+}
+
+/* line 396, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.ymca-secondary-menu .pane-content
+.active-trail a, .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active a
+, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content .active-trail a, #themeroller .color-scheme-green
+.ymca-secondary-menu .pane-content
+li.active a {
+  color: #43af95;
+}
+
+/* line 403, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.site-selector-homepage .group-active
+, #themeroller .color-scheme-green
+.site-selector-homepage .group-active {
+  border-top: 2px solid #8ecfbf;
+}
+
+/* line 410, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.nav-search
+input[type="text"], #themeroller .color-scheme-green
+.nav-search input[type="text"] {
+  color: #d9efea;
+}
+
+/* line 412, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.nav-search
+.search-fill
+, #themeroller .color-scheme-green
+.nav-search
+.search-fill {
+  background-color: #69bfaa;
+  border: solid 1px #8ecfbf;
+}
+
+/* line 420, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+.color-scheme-green
+.breadcrumbs
+, #themeroller .color-scheme-green
+.breadcrumbs {
+  background-color: #3658ab;
+}
+
+@media (min-width: 768px) {
+  /* line 428, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-green
+th
+, #themeroller .color-scheme-green
+th {
+    background-color: #e6f2fc;
+  }
+  /* line 433, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-green tr.even, .color-scheme-green
+tr.odd
+, #themeroller .color-scheme-green tr.even, #themeroller .color-scheme-green
+tr.odd {
+    border-bottom: 1px solid #d5eafa;
+  }
+  /* line 438, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-green
+tr.even
+, #themeroller .color-scheme-green
+tr.even {
+    background-color: #f7fbfe;
+  }
+  /* line 443, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-green td.active, #themeroller .color-scheme-green td.active {
+    background-color: #f7fbfe;
+  }
+  /* line 447, /Volumes/Clients/ymcaweb/drupal/local.yweb.ellie/public/profiles/ellie/themes/ymca_one/sass/abstractions/_colors.scss */
+  .color-scheme-green tr.even td.active, #themeroller .color-scheme-green tr.even td.active {
+    background-color: #eef6fd;
   }
 }
 
